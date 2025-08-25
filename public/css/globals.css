@@ -1,0 +1,36 @@
+
+        @keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.megaMenuservice{
+    right: -650px !important;
+}
+.socialIcons a i svg{
+    width: 20px;
+    fill: #fff;
+}
+/* tabs */
+.tabContent {
+  display: none;
+}
+.tabContent.active {
+  display: block;
+}
+.tabBtn.active {
+  background: rgb(59 130 246);
+  color: #fff;
+}
+.tabBtn {
+    color:   rgb(75 85 99 );
+}
+/* header content */
+.headerContent {
+    display: none;
+}
+.headerContent.active {
+    display: block;
+}
+.pageHeader .headerTabList button.active{
+    background-color: rgb(37 99 235 );
+}

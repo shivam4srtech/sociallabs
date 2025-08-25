@@ -1,0 +1,4 @@
+.isiBox .buttons button.active{
+    color: rgb(79 70 229);
+     border-bottom: 2px solid rgb(99 102 241);
+}
