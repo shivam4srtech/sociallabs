@@ -258,54 +258,16 @@
             <div class="headerContent">
               <div class="mb-4">
                 <h3 class="text-lg font-semibold text-white mb-1">
-                  Bureau of Indian Standards (BIS) 2
+                    Bureau of Energy Efficiency (BEE)
                 </h3>
                 <p class="text-sm text-slate-400">Select a service to learn more</p>
               </div>
 
               <!-- Services Grid -->
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div
-                  class="group p-4 rounded-lg border border-slate-700/30 
-                         hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/10 
-                         transition-all duration-200 bg-slate-800/20 hover:bg-slate-800/40"
-                >
-                  <a
-                    href="/isi"
-                    class="font-semibold text-slate-100 group-hover:text-blue-400 
-                           block transition-colors duration-200 mb-2"
-                  >
-                    ISI Mark Certification (Scheme-1)
-                  </a>
-                </div>
-
-                <div
-                  class="group p-4 rounded-lg border border-slate-700/30 
-                         hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/10 
-                         transition-all duration-200 bg-slate-800/20 hover:bg-slate-800/40"
-                >
-                  <a
-                    href="/scheme-x-certification"
-                    class="font-semibold text-slate-100 group-hover:text-blue-400 
-                           block transition-colors duration-200 mb-2"
-                  >
-                    Scheme -X Certification
-                  </a>
-                </div>
-
-                <div
-                  class="group p-4 rounded-lg border border-slate-700/30 
-                         hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/10 
-                         transition-all duration-200 bg-slate-800/20 hover:bg-slate-800/40"
-                >
-                  <a
-                    href="/bis-crs"
-                    class="font-semibold text-slate-100 group-hover:text-blue-400 
-                           block transition-colors duration-200 mb-2"
-                  >
-                    CRS Certification
-                  </a>
-                </div>
+                  <div class="group p-4 rounded-lg border border-slate-700/30 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-200 bg-slate-800/20 hover:bg-slate-800/40">
+                    <a class="font-semibold text-slate-100 group-hover:text-blue-400 block transition-colors duration-200 mb-2" href="/bee">BEE Certification</a>
+                  </div>
               </div>
             </div>
           </div>

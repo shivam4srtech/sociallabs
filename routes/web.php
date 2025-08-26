@@ -10,3 +10,4 @@ Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::get('/isi', [PageController::class, 'isi'])->name('isi');
 Route::get('/bis-crs', [PageController::class, 'bisCrs'])->name('bis-crs');
 Route::get('/scheme-x-certification', [PageController::class, 'schemeXcertification'])->name('schemeXcertification');
+Route::get('/bee', [PageController::class, 'bee'])->name('bee');

@@ -3,6 +3,7 @@
 @section('title','isi')
 @push('pagecss')
 <link rel="stylesheet" href="{{ asset('css/service.css') }}" as="style">
+@endpush
 
 @section('content')
 <div class="pt-[69px]">
@@ -357,10 +358,10 @@
                 <table class="min-w-full divide-y divide-gray-200">
                     <thead class="bg-gray-50">
                         <tr>
-                            <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider rounded-tl-lg">S.No.</th>
-                            <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Product</th>
-                            <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Indian Standard number (IS No.)</th>
-                            <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider rounded-tr-lg">Date of Implementation</th>
+                            <th scope="col" class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider rounded-tl-lg">S.No.</th>
+                            <th scope="col" class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Product</th>
+                            <th scope="col" class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Indian Standard number (IS No.)</th>
+                            <th scope="col" class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider rounded-tr-lg">Date of Implementation</th>
                         </tr>
                     </thead>
                     <tbody class="bg-white divide-y divide-gray-200">
@@ -388,9 +389,106 @@
                             <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">IS 616:2010*</td>
                             <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">03 July 2013</td>
                         </tr>
-                        <!-- Add remaining rows similarly -->
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">5</td>
+                            <td class="px-4 py-2 text-sm text-gray-700">ELECTRONIC MUSICAL SYSTEMS WITH INPUT POWER 200W AND ABOVE</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">IS 616:2010*</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">03 July 2013</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">6</td>
+                            <td class="px-4 py-2 text-sm text-gray-700">LAPTOP/NOTEBOOK/TABLET</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">IS 13252(Part 1):2010*</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">03 July 2013</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">7</td>
+                            <td class="px-4 py-2 text-sm text-gray-700">MICROWAVE OVENS</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">IS 302-2-25:2014*</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">03 July 2013</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">8</td>
+                            <td class="px-4 py-2 text-sm text-gray-700">OPTICAL DISC PLAYERS WITH BUILT IN AMPLIFIERS OF INPUT POWER 200W AND ABOVE</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">IS 616:2010*</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">03 July 2013</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">9</td>
+                            <td class="px-4 py-2 text-sm text-gray-700">PLASMA/LCD/LED TELEVISIONS OF SCREEN SIZE 32"; AND ABOVE</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">IS 616:2010*</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">03 July 2013</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">10</td>
+                            <td class="px-4 py-2 text-sm text-gray-700">PRINTERS, PLOTTERS</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">IS 13252(Part 1):2010*</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">03 July 2013</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">11</td>
+                            <td class="px-4 py-2 text-sm text-gray-700">SCANNERS</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">IS 13252(Part 1):2010*</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">03 July 2013</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">12</td>
+                            <td class="px-4 py-2 text-sm text-gray-700">SET TOP BOX</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">IS 13252(Part 1):2010*</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">03 July 2013</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">13</td>
+                            <td class="px-4 py-2 text-sm text-gray-700">TELEPHONE ANSWERING MACHINES</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">IS 13252(Part 1):2010*</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">03 July 2013</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">14</td>
+                            <td class="px-4 py-2 text-sm text-gray-700">VISUAL DISPLAY UNITS, VIDEOS MONITORS OF SCREEN SIZE 32" AND ABOVE</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">IS 13252(Part 1):2010*</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">03 July 2013</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">15</td>
+                            <td class="px-4 py-2 text-sm text-gray-700">WIRELESS KEYBOARDS</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">IS 13252(Part 1):2010*</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">03 July 2013</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">16</td>
+                            <td class="px-4 py-2 text-sm text-gray-700">CASH REGISTERS</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">IS 13252(Part 1):2010*</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">13 May 2015</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">17</td>
+                            <td class="px-4 py-2 text-sm text-gray-700">COPYING MACHINES/DUPLICATORS</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">IS 13252(Part 1):2010*</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">13 May 2015</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">18</td>
+                            <td class="px-4 py-2 text-sm text-gray-700">PASSPORT READER</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">IS 13252(Part 1):2010*</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">13 May 2015</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">19</td>
+                            <td class="px-4 py-2 text-sm text-gray-700">POINT OF SALE TERMINALS</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">IS 13252(Part 1):2010*</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">13 May 2015</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">20</td>
+                            <td class="px-4 py-2 text-sm text-gray-700">MAIL PROCESSING MACHINES/POSTAGE MACHINES/FRANKING MACHINES</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">IS 13252(Part 1):2010*</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">13 May 2015</td>
+                        </tr>
+                        
                     </tbody>
                 </table>
+
                 <table class="min-w-full divide-y divide-gray-200" style="display: none">
                     <thead class="bg-gray-50">
                         <tr>
@@ -517,11 +615,6 @@
                         </tr>
                     </tbody>
                 </table>
-                {{-- <div class="flex justify-center py-4 bg-white rounded-b-lg">
-                    <button class="px-4 py-2 bg-gray-200 text-gray-800 text-sm font-medium rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 transition-colors duration-200">
-                        Show Less
-                    </button>
-                </div> --}}
             </div>
         </div>
         {{--  --}}
@@ -530,86 +623,84 @@
 
                 <!-- Who can apply for BIS-CRS Certificate -->
                 <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
-                <h2 class="text-xl font-bold text-gray-900 mb-4">Who can apply for BIS-CRS Certificate?</h2>
-                <p class="text-gray-700 leading-relaxed mb-4 text-sm">
-                    The manufacturing unit/factory of the notified products who want to sell or export their product to Indian market is liable to apply for an 8-digit Registration no. in BIS. The registration no. is unique for the combination of:
-                </p>
-                <div class="space-y-2 mb-4 ml-2">
-                    <p class="text-gray-700 text-sm"><span class="font-semibold">(A)</span> Manufacturer name and Location</p>
-                    <p class="text-gray-700 text-sm"><span class="font-semibold">(B)</span> Brand</p>
-                    <p class="text-gray-700 text-sm"><span class="font-semibold">(C)</span> Product category</p>
-                </div>
-                <div class="bg-blue-50 rounded-lg p-3">
-                    <p class="text-gray-800 text-sm">
-                    <strong>BIS certification</strong> allows manufacturers to use Standard Mark with unique 8-digit R-number on certified product until its validity date.
+                    <h2 class="text-xl font-bold text-gray-900 mb-4">Who is Eligible for BIS-CRS Certification?</h2>
+                    <p class="text-gray-700 leading-relaxed mb-4 text-sm">
+                        Any manufacturing unit or factory producing the notified products that intends to sell or export to the Indian market must obtain an 8-digit Registration Number from BIS. This registration number is unique for the following combination:
                     </p>
-                </div>
+                    <div class="space-y-2 mb-4 ml-2">
+                        <p class="text-gray-700 text-sm"><span class="font-semibold">(A)</span> Name and location of the manufacturer</p>
+                        <p class="text-gray-700 text-sm"><span class="font-semibold">(B)</span> Brand name</p>
+                        <p class="text-gray-700 text-sm"><span class="font-semibold">(C)</span> Product category</p>
+                    </div>
+                    <div class="bg-blue-50 rounded-lg p-3">
+                        <p class="text-gray-800 text-sm">
+                            <strong>BIS certification</strong> enables manufacturers to display the Standard Mark along with their unique 8-digit R-number on the certified product until the certificate expires.
+                        </p>
+                    </div>
                 </div>
 
                 <!-- Testing requirements for BIS-CRS -->
                 <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
-                <h2 class="text-xl font-bold text-gray-900 mb-4">Testing requirements for BIS-CRS</h2>
-                <p class="text-gray-700 mb-4 text-sm">
-                    Below are the requirements that are usually raised by Lab to initiate the testing:
-                </p>
-                <ul class="space-y-2">
-                    <li class="flex items-start">
-                    <span class="flex-shrink-0 w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2"></span>
-                    <span class="text-gray-700 text-sm">Product Sample as per applicable IS requirements</span>
-                    </li>
-                    <li class="flex items-start">
-                    <span class="flex-shrink-0 w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2"></span>
-                    <span class="text-gray-700 text-sm">CDF-CCL (construction data format-Critical component list)</span>
-                    </li>
-                    <li class="flex items-start">
-                    <span class="flex-shrink-0 w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2"></span>
-                    <span class="text-gray-700 text-sm">Marking Labels with mandatory requirements</span>
-                    </li>
-                    <li class="flex items-start">
-                    <span class="flex-shrink-0 w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2"></span>
-                    <span class="text-gray-700 text-sm">PCB Layout</span>
-                    </li>
-                    <li class="flex items-start">
-                    <span class="flex-shrink-0 w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2"></span>
-                    <span class="text-gray-700 text-sm">Schematic Diagram</span>
-                    </li>
-                    <li class="flex items-start">
-                    <span class="flex-shrink-0 w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2"></span>
-                    <span class="text-gray-700 text-sm">Product Technical specification sheet</span>
-                    </li>
-                    <li class="flex items-start">
-                    <span class="flex-shrink-0 w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2"></span>
-                    <span class="text-gray-700 text-sm">Product operating Instruction for Lab Engineer</span>
-                    </li>
-                    <li class="flex items-start">
-                    <span class="flex-shrink-0 w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2"></span>
-                    <span class="text-gray-700 text-sm">Product accessories to operate product at Lab</span>
-                    </li>
-                </ul>
+                    <h2 class="text-xl font-bold text-gray-900 mb-4">BIS-CRS Testing Requirements</h2>
+                    <p class="text-gray-700 mb-4 text-sm">
+                        The following items are typically requested by the laboratory to begin product testing:
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2"></span>
+                            <span class="text-gray-700 text-sm">Product sample complying with relevant IS standards</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2"></span>
+                            <span class="text-gray-700 text-sm">CDF-CCL (Construction Data Format - Critical Component List)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2"></span>
+                            <span class="text-gray-700 text-sm">Marking labels with all mandatory details</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2"></span>
+                            <span class="text-gray-700 text-sm">PCB layout diagram</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2"></span>
+                            <span class="text-gray-700 text-sm">Schematic diagram</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2"></span>
+                            <span class="text-gray-700 text-sm">Technical specification sheet of the product</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2"></span>
+                            <span class="text-gray-700 text-sm">Operating instructions for lab personnel</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2"></span>
+                            <span class="text-gray-700 text-sm">Accessories required to operate the product in the lab</span>
+                        </li>
+                    </ul>
                 </div>
-
                 <!-- Importance of BIS certification -->
                 <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
-                <h2 class="text-xl font-bold text-gray-900 mb-4">Importance of BIS certification</h2>
-                <p class="text-gray-700 mb-4 text-sm">
-                    Procuring BIS certificate itself is a symbol of safety and quality. Major benefits to be noted:
-                </p>
-                <ul class="space-y-2">
-                    <li class="flex items-start">
-                    <span class="flex-shrink-0 w-2 h-2 bg-green-500 rounded-full mt-2 mr-2"></span>
-                    <span class="text-gray-700 text-sm">Enable market access to manufacturers</span>
-                    </li>
-                    <li class="flex items-start">
-                    <span class="flex-shrink-0 w-2 h-2 bg-green-500 rounded-full mt-2 mr-2"></span>
-                    <span class="text-gray-700 text-sm">Ensure quality product in Market</span>
-                    </li>
-                    <li class="flex items-start">
-                    <span class="flex-shrink-0 w-2 h-2 bg-green-500 rounded-full mt-2 mr-2"></span>
-                    <span class="text-gray-700 text-sm">Ensure Safety of end consumer</span>
-                    </li>
-                </ul>
+                    <h2 class="text-xl font-bold text-gray-900 mb-4">Significance of BIS Certification</h2>
+                    <p class="text-gray-700 mb-4 text-sm">
+                        Obtaining a BIS certificate represents a mark of safety and quality. Key advantages include:
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-2 h-2 bg-green-500 rounded-full mt-2 mr-2"></span>
+                            <span class="text-gray-700 text-sm">Provides manufacturers with easier market access</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-2 h-2 bg-green-500 rounded-full mt-2 mr-2"></span>
+                            <span class="text-gray-700 text-sm">Assures the market of high-quality products</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-2 h-2 bg-green-500 rounded-full mt-2 mr-2"></span>
+                            <span class="text-gray-700 text-sm">Guarantees safety for the end consumer</span>
+                        </li>
+                    </ul>
                 </div>
-
             </div>
         </div>
         {{-- Certification Services --}}
@@ -631,87 +722,71 @@
                     <!-- Card 01: Planning & Product Assessment -->
                     <div class="group relative bg-white/70 backdrop-blur-md border border-gray-200 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition-transform duration-300 p-6 flex flex-col">
                         <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 flex-shrink-0 rounded-full bg-gradient-to-tr from-indigo-500 to-indigo-700 text-white flex items-center justify-center text-lg font-bold shadow-lg">01</div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-check ml-4 w-6 h-6 text-indigo-600" aria-hidden="true">
-                            <rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect>
-                            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
-                            <path d="m9 14 2 2 4-4"></path>
-                        </svg>
+                            <div class="w-12 h-12 flex-shrink-0 rounded-full bg-gradient-to-tr from-indigo-500 to-indigo-700 text-white flex items-center justify-center text-lg font-bold shadow-lg">01</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-check ml-4 w-6 h-6 text-indigo-600" aria-hidden="true">
+                                <rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect>
+                                <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                                <path d="m9 14 2 2 4-4"></path>
+                            </svg>
                         </div>
-                        <h3 class="text-xl font-semibold text-gray-800 mb-3 leading-snug">Planning &amp; Product Assessment</h3>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3 leading-snug">Product Planning & Assessment</h3>
                         <p class="text-gray-700 text-sm flex-1 mb-4">
-                        We begin with detailed product analysis to confirm CRS applicability. Once scope is verified, we draft a certification roadmap tailored to your product.
+                            Our process starts with a thorough evaluation of the product to verify CRS compliance. Once confirmed, we create a customized certification plan specific to your product.
                         </p>
                         <ul class="text-sm text-gray-700 space-y-1 mb-3">
-                        <li class="flex items-start gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true">
-                            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                            <path d="m9 12 2 2 4-4"></path>
-                            </svg>
-                            <span>Product Assessment</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true">
-                            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                            <path d="m9 12 2 2 4-4"></path>
-                            </svg>
-                            <span>Sample Handling</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true">
-                            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                            <path d="m9 12 2 2 4-4"></path>
-                            </svg>
-                            <span>Lab Selection with Scope</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true">
-                            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                            <path d="m9 12 2 2 4-4"></path>
-                            </svg>
-                            <span>Testing under IS Standards</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true">
-                            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                            <path d="m9 12 2 2 4-4"></path>
-                            </svg>
-                            <span>Documentation &amp; Submission</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true">
-                            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                            <path d="m9 12 2 2 4-4"></path>
-                            </svg>
-                            <span>Query Resolution &amp; Certificate</span>
-                        </li>
+                            <li class="flex items-start gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                                <span>Detailed Product Evaluation</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                                <span>Sample Preparation & Handling</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                                <span>Selecting Labs & Defining Scope</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                                <span>Testing as per IS Standards</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                                <span>Document Preparation & Submission</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                                <span>Query Handling & Certificate Issuance</span>
+                            </li>
                         </ul>
                     </div>
+
 
                     <!-- Card 02: Sample Handling & Custom Clearance -->
                     <div class="group relative bg-white/70 backdrop-blur-md border border-gray-200 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition-transform duration-300 p-6 flex flex-col">
                         <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 flex-shrink-0 rounded-full bg-gradient-to-tr from-indigo-500 to-indigo-700 text-white flex items-center justify-center text-lg font-bold shadow-lg">02</div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-boxes ml-4 w-6 h-6 text-indigo-600" aria-hidden="true">
-                            <path d="M2.97 12.92A2 2 0 0 0 2 14.63v3.24a2 2 0 0 0 .97 1.71l3 1.8a2 2 0 0 0 2.06 0L12 19v-5.5l-5-3-4.03 2.42Z"></path>
-                            <path d="m7 16.5-4.74-2.85"></path>
-                            <path d="m7 16.5 5-3"></path>
-                            <path d="M7 16.5v5.17"></path>
-                            <path d="M12 13.5V19l3.97 2.38a2 2 0 0 0 2.06 0l3-1.8a2 2 0 0 0 .97-1.71v-3.24a2 2 0 0 0-.97-1.71L17 10.5l-5 3Z"></path>
-                            <path d="m17 16.5-5-3"></path>
-                            <path d="m17 16.5 4.74-2.85"></path>
-                            <path d="M17 16.5v5.17"></path>
-                            <path d="M7.97 4.42A2 2 0 0 0 7 6.13v4.37l5 3 5-3V6.13a2 2 0 0 0-.97-1.71l-3-1.8a2 2 0 0 0-2.06 0l-3 1.8Z"></path>
-                            <path d="M12 8 7.26 5.15"></path>
-                            <path d="m12 8 4.74-2.85"></path>
-                            <path d="M12 13.5V8"></path>
-                        </svg>
+                            <div class="w-12 h-12 flex-shrink-0 rounded-full bg-gradient-to-tr from-indigo-500 to-indigo-700 text-white flex items-center justify-center text-lg font-bold shadow-lg">02</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-boxes ml-4 w-6 h-6 text-indigo-600" aria-hidden="true">
+                                <path d="M2.97 12.92A2 2 0 0 0 2 14.63v3.24a2 2 0 0 0 .97 1.71l3 1.8a2 2 0 0 0 2.06 0L12 19v-5.5l-5-3-4.03 2.42Z"></path>
+                                <path d="m7 16.5-4.74-2.85"></path>
+                                <path d="m7 16.5 5-3"></path>
+                                <path d="M7 16.5v5.17"></path>
+                                <path d="M12 13.5V19l3.97 2.38a2 2 0 0 0 2.06 0l3-1.8a2 2 0 0 0 .97-1.71v-3.24a2 2 0 0 0-.97-1.71L17 10.5l-5 3Z"></path>
+                                <path d="m17 16.5-5-3"></path>
+                                <path d="m17 16.5 4.74-2.85"></path>
+                                <path d="M17 16.5v5.17"></path>
+                                <path d="M7.97 4.42A2 2 0 0 0 7 6.13v4.37l5 3 5-3V6.13a2 2 0 0 0-.97-1.71l-3-1.8a2 2 0 0 0-2.06 0l-3 1.8Z"></path>
+                                <path d="M12 8 7.26 5.15"></path>
+                                <path d="m12 8 4.74-2.85"></path>
+                                <path d="M12 13.5V8"></path>
+                            </svg>
                         </div>
-                        <h3 class="text-xl font-semibold text-gray-800 mb-3 leading-snug">Sample Handling &amp; Custom Clearance</h3>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3 leading-snug">Sample Logistics & Clearance</h3>
                         <p class="text-gray-700 text-sm flex-1 mb-4">
-                        From import clearance to sample delivery at the test lab, our team manages the entire logistics chain, ensuring security and compliance throughout.
+                            Our team oversees the complete logistics process—from import clearance to delivery of samples at the testing lab—ensuring both compliance and secure handling at every step.
                         </p>
                     </div>
+
 
                     <!-- Card 03: Product Testing -->
                     <div class="group relative bg-white/70 backdrop-blur-md border border-gray-200 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition-transform duration-300 p-6 flex flex-col">
@@ -719,138 +794,120 @@
                         <!-- Card Header -->
                         <div class="flex items-center mb-4">
                             <div class="w-12 h-12 flex-shrink-0 rounded-full bg-gradient-to-tr from-indigo-500 to-indigo-700 text-white flex items-center justify-center text-lg font-bold shadow-lg">
-                            03
+                                03
                             </div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-package-check ml-4 w-6 h-6 text-indigo-600" aria-hidden="true">
-                            <path d="m16 16 2 2 4-4"></path>
-                            <path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14"></path>
-                            <path d="m7.5 4.27 9 5.15"></path>
-                            <polyline points="3.29 7 12 12 20.71 7"></polyline>
-                            <line x1="12" x2="12" y1="22" y2="12"></line>
+                                <path d="m16 16 2 2 4-4"></path>
+                                <path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14"></path>
+                                <path d="m7.5 4.27 9 5.15"></path>
+                                <polyline points="3.29 7 12 12 20.71 7"></polyline>
+                                <line x1="12" x2="12" y1="22" y2="12"></line>
                             </svg>
                         </div>
 
                         <!-- Card Title -->
-                        <h3 class="text-xl font-semibold text-gray-800 mb-3 leading-snug">Product Testing</h3>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3 leading-snug">Comprehensive Product Testing</h3>
 
                         <!-- Card Description -->
                         <p class="text-gray-700 text-sm flex-1 mb-4">
-                            We facilitate complete product testing—including safety, language, and security—based on applicable BIS standards, with end-to-end lab coordination.
+                            We manage complete product testing—including safety, language, and security evaluations—aligned with relevant BIS standards, while coordinating seamlessly with testing labs.
                         </p>
 
                         <!-- Card List -->
                         <ul class="text-sm text-gray-700 space-y-1 mb-3">
                             <li class="flex items-start gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true">
-                                <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                                <path d="m9 12 2 2 4-4"></path>
-                            </svg>
-                            <span>IS 13252 / IEC 60950-1 for IT Equipment</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                                <span>IS 13252 / IEC 60950-1 for IT Equipment</span>
                             </li>
                             <li class="flex items-start gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true">
-                                <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                                <path d="m9 12 2 2 4-4"></path>
-                            </svg>
-                            <span>IS 616 / IEC 60065 for AV Devices</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                                <span>IS 616 / IEC 60065 for AV Devices</span>
                             </li>
                             <li class="flex items-start gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true">
-                                <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                                <path d="m9 12 2 2 4-4"></path>
-                            </svg>
-                            <span>1–2 weeks avg. testing duration</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                                <span>Average testing duration: 1–2 weeks</span>
                             </li>
                         </ul>
 
                         <!-- Card Footer / Note -->
                         <p class="text-xs text-gray-500 italic">
-                            Special support in lab coordination and test report review.
+                            Dedicated support for lab coordination and review of test reports.
                         </p>
                     </div>
+
                     {{-- 4 --}}
                     <div class="group relative bg-white/70 backdrop-blur-md border border-gray-200 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition-transform duration-300 p-6 flex flex-col">
 
                         <!-- Card Header -->
                         <div class="flex items-center mb-4">
                             <div class="w-12 h-12 flex-shrink-0 rounded-full bg-gradient-to-tr from-indigo-500 to-indigo-700 text-white flex items-center justify-center text-lg font-bold shadow-lg">
-                            04
+                                04
                             </div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big ml-4 w-6 h-6 text-indigo-600" aria-hidden="true">
-                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
-                            <path d="m9 11 3 3L22 4"></path>
+                                <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                <path d="m9 11 3 3L22 4"></path>
                             </svg>
                         </div>
 
                         <!-- Card Title -->
-                        <h3 class="text-xl font-semibold text-gray-800 mb-3 leading-snug">Product Certification</h3>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3 leading-snug">Certification & Approvals</h3>
 
                         <!-- Card Description -->
                         <p class="text-gray-700 text-sm flex-1 mb-4">
-                            We prepare and verify all documents, submit applications, and ensure BIS approvals via query resolutions and direct coordination.
+                            We handle end-to-end documentation, application submission, and liaise with BIS authorities to secure approvals, including resolving queries efficiently.
                         </p>
 
                     </div>
+
                     {{-- 5 --}}
                     <div class="group relative bg-white/70 backdrop-blur-md border border-gray-200 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition-transform duration-300 p-6 flex flex-col">
 
                         <!-- Card Header -->
                         <div class="flex items-center mb-4">
                             <div class="w-12 h-12 flex-shrink-0 rounded-full bg-gradient-to-tr from-indigo-500 to-indigo-700 text-white flex items-center justify-center text-lg font-bold shadow-lg">
-                            05
+                                05
                             </div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock ml-4 w-6 h-6 text-indigo-600" aria-hidden="true">
-                            <rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect>
-                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                                <rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect>
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
                             </svg>
                         </div>
 
                         <!-- Card Title -->
-                        <h3 class="text-xl font-semibold text-gray-800 mb-3 leading-snug">CCTV Testing &amp; ER Certification</h3>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3 leading-snug">CCTV & ER 01:2024 Compliance</h3>
 
                         <!-- Card Description -->
                         <p class="text-gray-700 text-sm flex-1 mb-4">
-                            We guide you through ER 01:2024 compliance for CCTV cameras—covering data security, penetration testing, and factory audit support.
+                            We assist with ER 01:2024 adherence for CCTV cameras, addressing data security, system audits, penetration tests, and factory inspection support.
                         </p>
 
                         <!-- Features List -->
                         <ul class="text-sm text-gray-700 space-y-1 mb-3">
                             <li class="flex items-start gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true">
-                                <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                                <path d="m9 12 2 2 4-4"></path>
-                            </svg>
-                            <span>Physical Security</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                                <span>Physical Security</span>
                             </li>
                             <li class="flex items-start gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true">
-                                <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                                <path d="m9 12 2 2 4-4"></path>
-                            </svg>
-                            <span>Access Control</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                                <span>Access Control</span>
                             </li>
                             <li class="flex items-start gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true">
-                                <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                                <path d="m9 12 2 2 4-4"></path>
-                            </svg>
-                            <span>Network &amp; Software Security</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                                <span>Network & Software Security</span>
                             </li>
                             <li class="flex items-start gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true">
-                                <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                                <path d="m9 12 2 2 4-4"></path>
-                            </svg>
-                            <span>Penetration Testing</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-4 h-4 text-indigo-500 mt-1" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                                <span>Penetration Testing</span>
                             </li>
                         </ul>
 
                         <!-- Note -->
                         <p class="text-xs text-gray-500 italic">
-                            We also provide pre-compliance testing templates and audit assistance.
+                            Pre-compliance templates and audit guidance are also provided.
                         </p>
 
                     </div>
+
                 </div>
             </div>
         </section>
@@ -859,13 +916,12 @@
 
                 <!-- Section Header -->
                 <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                    Common Challenges &amp; How Vincular Solves Them
-                </h2>
-                <p class="text-gray-600 text-lg max-w-2xl mx-auto">
-                    Many businesses face roadblocks in achieving timely CRS certification. 
-                    Here’s how Vincular helps overcome them with confidence.
-                </p>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                        Typical Challenges &amp; Vincular’s Solutions
+                    </h2>
+                    <p class="text-gray-600 text-lg max-w-2xl mx-auto">
+                        Obtaining CRS certification on schedule can be tricky for many companies. Vincular guides you through each hurdle, ensuring a smooth and confident certification process.
+                    </p>
                 </div>
 
                 <!-- Cards Grid -->
@@ -874,39 +930,40 @@
                 <!-- Common Challenges Card -->
                 <div class="bg-red-50 border border-red-200 rounded-2xl p-6 shadow-sm">
                     <div class="flex items-center mb-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-triangle-alert w-6 h-6 text-red-500 mr-2" aria-hidden="true">
-                        <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path>
-                        <path d="M12 9v4"></path>
-                        <path d="M12 17h.01"></path>
-                    </svg>
-                    <h3 class="text-xl font-semibold text-red-700">Common Challenges</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-triangle-alert w-6 h-6 text-red-500 mr-2" aria-hidden="true">
+                            <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path>
+                            <path d="M12 9v4"></path>
+                            <path d="M12 17h.01"></path>
+                        </svg>
+                        <h3 class="text-xl font-semibold text-red-700">Typical Obstacles</h3>
                     </div>
                     <ul class="list-disc list-inside text-red-800 space-y-3 pl-2">
-                    <li>Regulatory complexity – Frequent updates in compliance rules.</li>
-                    <li>Sample rejection issues – Incorrect product selection for testing.</li>
-                    <li>Delays in testing &amp; certification – Lack of proper guidance.</li>
-                    <li>Customs clearance hurdles – Incomplete documentation.</li>
+                        <li>Complex regulatory updates – Keeping up with changing compliance rules.</li>
+                        <li>Sample selection errors – Incorrect products sent for testing.</li>
+                        <li>Certification delays – Lack of clear guidance prolonging timelines.</li>
+                        <li>Customs & clearance issues – Missing or incomplete documentation.</li>
                     </ul>
                 </div>
 
                 <!-- How Vincular Helps Card -->
                 <div class="bg-green-50 border border-green-200 rounded-2xl p-6 shadow-sm">
                     <div class="flex items-center mb-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb w-6 h-6 text-green-600 mr-2" aria-hidden="true">
-                        <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
-                        <path d="M9 18h6"></path>
-                        <path d="M10 22h4"></path>
-                    </svg>
-                    <h3 class="text-xl font-semibold text-green-700">How Vincular Helps</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb w-6 h-6 text-green-600 mr-2" aria-hidden="true">
+                            <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
+                            <path d="M9 18h6"></path>
+                            <path d="M10 22h4"></path>
+                        </svg>
+                        <h3 class="text-xl font-semibold text-green-700">Vincular’s Approach</h3>
                     </div>
                     <ul class="list-disc list-inside text-green-900 space-y-3 pl-2">
-                    <li>Providing pre-assessment &amp; regulatory consulting.</li>
-                    <li>Ensuring error-free documentation &amp; application filing.</li>
-                    <li>Coordinating with certified testing labs for quicker approvals.</li>
-                    <li>Handling sample logistics &amp; customs clearance smoothly.</li>
-                    <li>Offering end-to-end support from testing to certification.</li>
+                        <li>Conducting pre-assessment and regulatory guidance.</li>
+                        <li>Guaranteeing accurate documentation and smooth application filing.</li>
+                        <li>Liaising with certified labs to accelerate testing approvals.</li>
+                        <li>Managing sample logistics and customs clearance efficiently.</li>
+                        <li>Providing full support from testing to final certification.</li>
                     </ul>
                 </div>
+
 
                 </div>
             </div>
@@ -1100,43 +1157,6 @@
 
 </section>
 @push('scripts_custom')
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    const buttons = document.querySelectorAll(".isiBox .buttons button");
-    const tables = document.querySelectorAll(".isiBox .isiTables table");
-    const searchInput = document.querySelector(".searchisiItems");
-
-    // Table toggle functionality
-    buttons.forEach((button, index) => {
-        button.addEventListener("click", () => {
-            tables.forEach(table => table.style.display = "none");
-            buttons.forEach(btn => btn.classList.remove("active"));
-            tables[index].style.display = "table";
-            button.classList.add("active");
-
-            // Reset search input when switching tables
-            searchInput.value = "";
-            showAllRows(tables[index]);
-        });
-    });
-
-    // Search functionality
-    searchInput.addEventListener("input", function() {
-        const searchTerm = this.value.toLowerCase();
-        const visibleTable = Array.from(tables).find(table => table.style.display !== "none");
-        if (visibleTable) {
-            Array.from(visibleTable.rows).forEach(row => {
-                row.style.display = row.textContent.toLowerCase().includes(searchTerm) ? "" : "none";
-            });
-        }
-    });
-
-    // Helper function to show all rows
-    function showAllRows(table) {
-        Array.from(table.rows).forEach(row => row.style.display = "");
-    }
-});
-</script>
 
 <script src="{{ asset('js/service.js') }}" defer></script>
 

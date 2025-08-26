@@ -26,5 +26,9 @@ class PageController extends Controller
     {
         return view('servicePages.bis-crs');
     }
+       public function bee()
+    {
+        return view('servicePages.bureau-Energy-Efficiency');
+    }
 }
 

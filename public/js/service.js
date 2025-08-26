@@ -65,4 +65,48 @@
       });
     });
   });
+//TOGGLE TABLE TABS
+document.addEventListener("DOMContentLoaded", function() {
+    const isiBoxes = document.querySelectorAll(".isiBox");
+
+    isiBoxes.forEach(isiBox => {
+        const buttons = isiBox.querySelectorAll(".buttons button");
+        const tables = isiBox.querySelectorAll(".isiTables table");
+        const searchInput = isiBox.querySelector(".searchisiItems");
+
+        // Table toggle functionality
+        buttons.forEach((button, index) => {
+            button.addEventListener("click", () => {
+                tables.forEach(table => table.style.display = "none");
+                buttons.forEach(btn => btn.classList.remove("active"));
+                tables[index].style.display = "table";
+                button.classList.add("active");
+
+                // Reset search input when switching tables
+                if (searchInput) {
+                    searchInput.value = "";
+                    showAllRows(tables[index]);
+                }
+            });
+        });
+
+        // Search functionality
+        if (searchInput) {
+            searchInput.addEventListener("input", function() {
+                const searchTerm = this.value.toLowerCase();
+                const visibleTable = Array.from(tables).find(table => table.style.display !== "none");
+                if (visibleTable) {
+                    Array.from(visibleTable.rows).forEach(row => {
+                        row.style.display = row.textContent.toLowerCase().includes(searchTerm) ? "" : "none";
+                    });
+                }
+            });
+        }
+
+        // Helper function to show all rows
+        function showAllRows(table) {
+            Array.from(table.rows).forEach(row => row.style.display = "");
+        }
+    });
+});
 
