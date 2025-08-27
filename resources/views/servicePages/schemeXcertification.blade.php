@@ -24,10 +24,10 @@
                   </div>
                   <div class="flex justify-center lg:justify-start">
                     <div class="relative">
-                      <button class="group relative bg-[#000032] text-white px-10 py-4 text-sm font-medium tracking-wide uppercase transition-all duration-300 hover:bg-gray-800 border-2 border-black hover:border-gray-800 overflow-hidden rounded-md">
+                        <button class="group relative bg-[#000032] text-white px-10 py-4 text-sm font-medium tracking-wide uppercase transition-all duration-300 hover:bg-gray-800 border-2 border-black hover:border-gray-800 overflow-hidden rounded-md" onclick="document.getElementById('enquiryModal').classList.remove('hidden')">
                         <span class="relative z-10">Schedule Free Consultation</span>
                         <div class="absolute inset-0 bg-white transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out"></div>
-                        <span class="absolute inset-0 flex items-center justify-center text-black font-medium tracking-wide uppercase opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">Start Free Consultation</span>
+                        <span class="absolute inset-0 flex items-center justify-center text-black font-medium tracking-wide uppercase opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">Schedule Free Consultation</span>
                       </button>
                     </div>
                   </div>
@@ -712,193 +712,193 @@
               </div>
           </div>
           {{-- faqs --}}
-        <div class="w-full max-w-4xl mx-auto mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">
-                Frequently Asked Questions
-            </h2>
+          <div class="w-full max-w-4xl mx-auto mb-16">
+              <h2 class="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">
+                  Frequently Asked Questions
+              </h2>
 
-            <div class="space-y-4">
-                <!-- FAQ Item -->
-                <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
-                  <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
-                    <h3 class="text-lg font-semibold text-gray-900 pr-4">
-                      What is BIS Scheme-X Certification?
-                    </h3>
-                    <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
-                    </svg>
-                  </button>
-                  <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
-                    <div class="px-6 pb-5">
-                      <p class="text-gray-600 leading-relaxed">
-                        BIS Scheme-X is a certification scheme that ensures imported or domestically manufactured products meet Indian quality and safety standards before they are placed on the market.
-                      </p>
+              <div class="space-y-4">
+                  <!-- FAQ Item -->
+                  <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                    <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
+                      <h3 class="text-lg font-semibold text-gray-900 pr-4">
+                        What is BIS Scheme-X Certification?
+                      </h3>
+                      <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
+                      </svg>
+                    </button>
+                    <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                      <div class="px-6 pb-5">
+                        <p class="text-gray-600 leading-relaxed">
+                          BIS Scheme-X is a certification scheme that ensures imported or domestically manufactured products meet Indian quality and safety standards before they are placed on the market.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
-                  <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
-                    <h3 class="text-lg font-semibold text-gray-900 pr-4">
-                      Who needs to apply for BIS Scheme-X?
-                    </h3>
-                    <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
-                    </svg>
-                  </button>
-                  <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
-                    <div class="px-6 pb-5">
-                      <p class="text-gray-600 leading-relaxed">
-                        Importers, manufacturers, and brand owners of products notified under mandatory BIS certification must apply for Scheme-X approval before selling in India.
-                      </p>
+                  <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                    <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
+                      <h3 class="text-lg font-semibold text-gray-900 pr-4">
+                        Who needs to apply for BIS Scheme-X?
+                      </h3>
+                      <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
+                      </svg>
+                    </button>
+                    <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                      <div class="px-6 pb-5">
+                        <p class="text-gray-600 leading-relaxed">
+                          Importers, manufacturers, and brand owners of products notified under mandatory BIS certification must apply for Scheme-X approval before selling in India.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
-                  <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
-                    <h3 class="text-lg font-semibold text-gray-900 pr-4">
-                      What documents are required for BIS Scheme-X?
-                    </h3>
-                    <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
-                    </svg>
-                  </button>
-                  <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
-                    <div class="px-6 pb-5">
-                      <p class="text-gray-600 leading-relaxed">
-                        Applicants need to submit product test reports from BIS-recognized labs, manufacturer’s details, brand authorization (if applicable), technical documents, and an undertaking of compliance.
-                      </p>
+                  <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                    <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
+                      <h3 class="text-lg font-semibold text-gray-900 pr-4">
+                        What documents are required for BIS Scheme-X?
+                      </h3>
+                      <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
+                      </svg>
+                    </button>
+                    <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                      <div class="px-6 pb-5">
+                        <p class="text-gray-600 leading-relaxed">
+                          Applicants need to submit product test reports from BIS-recognized labs, manufacturer’s details, brand authorization (if applicable), technical documents, and an undertaking of compliance.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
-                  <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
-                    <h3 class="text-lg font-semibold text-gray-900 pr-4">
-                      How long is the BIS Scheme-X license valid?
-                    </h3>
-                    <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
-                    </svg>
-                  </button>
-                  <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
-                    <div class="px-6 pb-5">
-                      <p class="text-gray-600 leading-relaxed">
-                        The license is generally issued for a period of 2 years and can be renewed for 2–5 years, depending on compliance history and applicant’s requirements.
-                      </p>
+                  <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                    <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
+                      <h3 class="text-lg font-semibold text-gray-900 pr-4">
+                        How long is the BIS Scheme-X license valid?
+                      </h3>
+                      <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
+                      </svg>
+                    </button>
+                    <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                      <div class="px-6 pb-5">
+                        <p class="text-gray-600 leading-relaxed">
+                          The license is generally issued for a period of 2 years and can be renewed for 2–5 years, depending on compliance history and applicant’s requirements.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
-                  <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
-                    <h3 class="text-lg font-semibold text-gray-900 pr-4">
-                      What happens if a product is sold without BIS Scheme-X certification?
-                    </h3>
-                    <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
-                    </svg>
-                  </button>
-                  <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
-                    <div class="px-6 pb-5">
-                      <p class="text-gray-600 leading-relaxed">
-                        Selling products without the mandatory BIS certification can lead to penalties, product seizures, cancellation of licenses, and legal action under the BIS Act, 2016.
-                      </p>
+                  <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                    <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
+                      <h3 class="text-lg font-semibold text-gray-900 pr-4">
+                        What happens if a product is sold without BIS Scheme-X certification?
+                      </h3>
+                      <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
+                      </svg>
+                    </button>
+                    <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                      <div class="px-6 pb-5">
+                        <p class="text-gray-600 leading-relaxed">
+                          Selling products without the mandatory BIS certification can lead to penalties, product seizures, cancellation of licenses, and legal action under the BIS Act, 2016.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
-                  <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
-                    <h3 class="text-lg font-semibold text-gray-900 pr-4">
-                      What is the difference between Scheme-I and Scheme-X under BIS?
-                    </h3>
-                    <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
-                    </svg>
-                  </button>
-                  <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
-                    <div class="px-6 pb-5">
-                      <p class="text-gray-600 leading-relaxed">
-                        Scheme-I involves full-fledged licensing for Indian manufacturers, while Scheme-X is designed specifically for foreign manufacturers who do not have a manufacturing unit in India.
-                      </p>
+                  <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                    <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
+                      <h3 class="text-lg font-semibold text-gray-900 pr-4">
+                        What is the difference between Scheme-I and Scheme-X under BIS?
+                      </h3>
+                      <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
+                      </svg>
+                    </button>
+                    <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                      <div class="px-6 pb-5">
+                        <p class="text-gray-600 leading-relaxed">
+                          Scheme-I involves full-fledged licensing for Indian manufacturers, while Scheme-X is designed specifically for foreign manufacturers who do not have a manufacturing unit in India.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
-                  <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
-                    <h3 class="text-lg font-semibold text-gray-900 pr-4">
-                      Who can apply under BIS Scheme-X?
-                    </h3>
-                    <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
-                    </svg>
-                  </button>
-                  <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
-                    <div class="px-6 pb-5">
-                      <p class="text-gray-600 leading-relaxed">
-                        Any foreign manufacturer exporting products to India that fall under the mandatory BIS certification list can apply for certification under Scheme-X through an Authorized Indian Representative (AIR).
-                      </p>
+                  <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                    <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
+                      <h3 class="text-lg font-semibold text-gray-900 pr-4">
+                        Who can apply under BIS Scheme-X?
+                      </h3>
+                      <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
+                      </svg>
+                    </button>
+                    <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                      <div class="px-6 pb-5">
+                        <p class="text-gray-600 leading-relaxed">
+                          Any foreign manufacturer exporting products to India that fall under the mandatory BIS certification list can apply for certification under Scheme-X through an Authorized Indian Representative (AIR).
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
-                  <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
-                    <h3 class="text-lg font-semibold text-gray-900 pr-4">
-                      What is the role of an Authorized Indian Representative (AIR) in Scheme-X?
-                    </h3>
-                    <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
-                    </svg>
-                  </button>
-                  <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
-                    <div class="px-6 pb-5">
-                      <p class="text-gray-600 leading-relaxed">
-                        An AIR acts as the local representative of a foreign manufacturer in India and is responsible for liaising with BIS, handling documentation, and ensuring compliance with Indian regulations.
-                      </p>
+                  <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                    <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
+                      <h3 class="text-lg font-semibold text-gray-900 pr-4">
+                        What is the role of an Authorized Indian Representative (AIR) in Scheme-X?
+                      </h3>
+                      <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
+                      </svg>
+                    </button>
+                    <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                      <div class="px-6 pb-5">
+                        <p class="text-gray-600 leading-relaxed">
+                          An AIR acts as the local representative of a foreign manufacturer in India and is responsible for liaising with BIS, handling documentation, and ensuring compliance with Indian regulations.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
-                  <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
-                    <h3 class="text-lg font-semibold text-gray-900 pr-4">
-                      What is the typical validity of BIS certification under Scheme-X?
-                    </h3>
-                    <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
-                    </svg>
-                  </button>
-                  <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
-                    <div class="px-6 pb-5">
-                      <p class="text-gray-600 leading-relaxed">
-                        A BIS license under Scheme-X is typically valid for two years initially and can be renewed for a further period of up to five years depending on compliance.
-                      </p>
+                  <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                    <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
+                      <h3 class="text-lg font-semibold text-gray-900 pr-4">
+                        What is the typical validity of BIS certification under Scheme-X?
+                      </h3>
+                      <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
+                      </svg>
+                    </button>
+                    <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                      <div class="px-6 pb-5">
+                        <p class="text-gray-600 leading-relaxed">
+                          A BIS license under Scheme-X is typically valid for two years initially and can be renewed for a further period of up to five years depending on compliance.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
-                  <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
-                    <h3 class="text-lg font-semibold text-gray-900 pr-4">
-                      Are factory inspections mandatory for foreign manufacturers under Scheme-X?
-                    </h3>
-                    <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
-                    </svg>
-                  </button>
-                  <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
-                    <div class="px-6 pb-5">
-                      <p class="text-gray-600 leading-relaxed">
-                        Yes, BIS officials conduct an on-site factory inspection of the foreign manufacturing facility before granting certification under Scheme-X.
-                      </p>
+                  <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                    <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg">
+                      <h3 class="text-lg font-semibold text-gray-900 pr-4">
+                        Are factory inspections mandatory for foreign manufacturers under Scheme-X?
+                      </h3>
+                      <svg class="chevron w-5 h-5 text-gray-500 transition-transform duration-200 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6"/>
+                      </svg>
+                    </button>
+                    <div class="faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                      <div class="px-6 pb-5">
+                        <p class="text-gray-600 leading-relaxed">
+                          Yes, BIS officials conduct an on-site factory inspection of the foreign manufacturing facility before granting certification under Scheme-X.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-            </div>
-        </div>
+              </div>
+          </div>
       </div>
   </div>    
   @push('scripts_custom')

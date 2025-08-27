@@ -34,3 +34,19 @@
 .pageHeader .headerTabList button.active{
     background-color: rgb(37 99 235 );
 }
+.headerNavBar{
+  background-color: #36344d;
+}
+.headerNavBar .headerLogo{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.pageFooter{
+   background-color: #36344d;
+}
+.pageFooter .footerLogo{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.6rem;
+}

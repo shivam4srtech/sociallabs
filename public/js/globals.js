@@ -89,3 +89,66 @@
     console.error("Error initializing tabs:", error);
   }
 });
+
+// cenquiry modal
+document.addEventListener("DOMContentLoaded", () => {
+    const modalForm = document.getElementById("modalContactForm");
+    const submitBtn = document.getElementById("modalSubmitBtn");
+    const successBox = document.getElementById("modal-success");
+    const errorBox = document.getElementById("modal-errors");
+
+    modalForm.addEventListener("submit", async function (e) {
+        e.preventDefault();
+
+        // Reset alerts
+        successBox.classList.add("hidden");
+        errorBox.classList.add("hidden");
+        successBox.innerHTML = "";
+        errorBox.innerHTML = "";
+
+        // Disable button while submitting
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Sending...";
+
+        try {
+            const formData = new FormData(modalForm);
+
+            const response = await fetch(modalForm.action, {
+                method: "POST",
+                headers: {
+                    "X-CSRF-TOKEN": document.querySelector('input[name="_token"]').value,
+                    "Accept": "application/json",
+                },
+                body: formData,
+            });
+
+            if (response.ok) {
+                const data = await response.json();
+
+                // ✅ Success
+                successBox.textContent = data.message || "Thank you! We will get back to you shortly.";
+                successBox.classList.remove("hidden");
+
+                modalForm.reset(); // clear fields
+            } else {
+                const errorData = await response.json();
+
+                // Show validation errors
+                if (errorData.errors) {
+                    let messages = Object.values(errorData.errors).flat().join("<br>");
+                    errorBox.innerHTML = messages;
+                } else {
+                    errorBox.textContent = errorData.message || "Something went wrong. Please try again.";
+                }
+                errorBox.classList.remove("hidden");
+            }
+        } catch (err) {
+            errorBox.textContent = "Network error. Please try again.";
+            errorBox.classList.remove("hidden");
+        } finally {
+            submitBtn.disabled = false;
+            submitBtn.textContent = "Send Message";
+        }
+    });
+});
+

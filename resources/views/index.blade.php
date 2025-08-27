@@ -69,20 +69,20 @@
                 <div class="flex flex-col sm:flex-row sm:space-x-2 space-y-2 sm:space-y-0 mb-6 sm:mb-4 items-start sm:items-center justify-start">
                     <div class="relative px-1 py-2 rounded-lg flex-shrink-0 cursor-pointer text-2xl sm:text-3xl md:text-7xl whitespace-nowrap font-poppins professional-transition transform-gpu word-active"
                         style="transform: scale(1.05) translateY(-2px); letter-spacing: 0.02em; color: #fff";>
-                    Testing.
+                    Evaluation.
                     </div>
                     <div class="relative px-1 py-2 rounded-lg flex-shrink-0 cursor-pointer text-2xl sm:text-3xl md:text-7xl whitespace-nowrap font-poppins professional-transition transform-gpu word-inactive text-white">
-                    Certification.
+                    Compliance.
                     </div>
                     <div class="relative px-1 py-2 rounded-lg flex-shrink-0 cursor-pointer text-2xl sm:text-3xl md:text-7xl whitespace-nowrap font-poppins professional-transition transform-gpu word-inactive text-white">
-                    Consultation.
+                    Advisory.
                     </div>
                 </div>
 
                 <!-- Desktop Paragraph -->
                 <div class="hidden md:block font-light text-lg md:text-2xl max-w-5xl md:pl-1 md:mb-4 text-justify paragraph-enter text-white"
                     style="text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 4px; line-height: 1.6; letter-spacing: 0.01em;">
-                    <p>We help provide accurate and reliable product testing to ensure your offerings meet all regulatory and quality standards, helping you reduce risk and launch with confidence.</p>
+                    <p>We deliver precise and dependable product testing to ensure compliance with regulatory and quality standards, minimizing risks and enabling a confident market launch.</p>
                 </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
             <!-- Mobile Paragraph -->
             <div class="block md:hidden bg-white px-4 sm:px-6 py-6 sm:py-8">
                 <div class="text-gray-800 font-light text-base sm:text-lg leading-relaxed text-justify paragraph-enter subtle-highlight pl-4 py-3">
-                <p>We help provide accurate and reliable product testing to ensure your offerings meet all regulatory and quality standards, helping you reduce risk and launch with confidence.</p>
+                <p>We deliver precise and dependable product testing to ensure compliance with regulatory and quality standards, minimizing risks and enabling a confident market launch.</p>
                 </div>
             </div>
         </section>
@@ -159,16 +159,16 @@
                             <div class="inline-flex items-center">
                                 <div class="w-12 h-px bg-black mr-4"></div>
                                 <span class="text-sm font-medium tracking-wider text-gray-600 uppercase">
-                                    Since 2012
+                                    Since 2022
                                 </span>
                             </div>
 
                             <!-- Heading -->
                             <div class="space-y-6">
                                 <h2 class="text-4xl md:text-5xl lg:text-5xl font-thin text-black leading-[1.1] tracking-tight font-poppins">
-                                    Trusted Partner in
+                                    Your Compliance Partner
                                     <em class="block font-semibold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600 not-italic py-1">
-                                        Regulatory Excellence
+                                       in India
                                     </em>
                                 </h2>
                             </div>
@@ -176,12 +176,10 @@
                             <!-- Description -->
                             <div class="space-y-6 text-gray-600 leading-relaxed max-w-2xl text-justify font-poppins">
                                 <p class="text-lg">
-                                    Vincular has established itself as a trusted partner in India's regulatory framework
-                                    by facilitating approvals for a wide range of consumer products.
+                                    At Sociallabs, we simplify regulatory approvals across a broad spectrum of consumer products.
                                 </p>
                                 <p class="text-lg">
-                                    Our expertise enables businesses to confidently enter and succeed in the Indian market
-                                    with strict adherence to safety and environmental norms.
+                                    Our knowledge and experience empower businesses to enter and thrive in the Indian market with complete adherence to safety and environmental regulations.
                                 </p>
                             </div>
                         </div>
@@ -195,7 +193,7 @@
                             <div class="group relative transition-all duration-1000 ease-out opacity-100 translate-y-0" style="transition-delay: 0ms;">
                                 <div class="py-8">
                                     <div class="space-y-3">
-                                        <div class="text-5xl md:text-6xl font-bold text-black tabular-nums"> <span class="counter" data-target="800">0</span>+</div>
+                                        <div class="text-5xl md:text-6xl font-bold text-black tabular-nums"> <span class="counter" data-target="200">0</span>+</div>
                                         <div class="text-xs text-gray-500 font-bold tracking-[0.15em] uppercase leading-relaxed">
                                             <div class="block">HAPPY CLIENTS</div>
                                         </div>
@@ -207,7 +205,7 @@
                             <div class="group relative transition-all duration-1000 ease-out opacity-100 translate-y-0" style="transition-delay: 150ms;">
                                 <div class="py-8">
                                     <div class="space-y-3">
-                                        <div class="text-5xl md:text-6xl font-bold text-black tabular-nums"><span class="counter" data-target="35000">0</span>+</div>
+                                        <div class="text-5xl md:text-6xl font-bold text-black tabular-nums"><span class="counter" data-target="1200">0</span>+</div>
                                         <div class="text-xs text-gray-500 font-bold tracking-[0.15em] uppercase leading-relaxed">
                                             <div class="block">TOTAL PROJECTS</div>
                                             <div class="block">HANDLED</div>
@@ -220,7 +218,7 @@
                             <div class="group relative transition-all duration-1000 ease-out opacity-100 translate-y-0" style="transition-delay: 300ms;">
                                 <div class="py-8">
                                     <div class="space-y-3">
-                                        <div class="text-5xl md:text-6xl font-bold text-black tabular-nums"><span class="counter" data-target="12">0</span>+</div>
+                                        <div class="text-5xl md:text-6xl font-bold text-black tabular-nums"><span class="counter" data-target="3">0</span>+</div>
                                         <div class="text-xs text-gray-500 font-bold tracking-[0.15em] uppercase leading-relaxed">
                                             <div class="block">YEARS OF</div>
                                             <div class="block">TRUSTED SERVICE</div>
@@ -233,7 +231,7 @@
                             <div class="group relative transition-all duration-1000 ease-out opacity-100 translate-y-0" style="transition-delay: 450ms;">
                                 <div class="py-8">
                                     <div class="space-y-3">
-                                        <div class="text-5xl md:text-6xl font-bold text-black tabular-nums"><span class="counter" data-target="80">0</span>+</div>
+                                        <div class="text-5xl md:text-6xl font-bold text-black tabular-nums"><span class="counter" data-target="16">0</span>+</div>
                                         <div class="text-xs text-gray-500 font-bold tracking-[0.15em] uppercase leading-relaxed">
                                             <div class="block">EXPERTS AT YOUR</div>
                                             <div class="block">SERVICE</div>
@@ -250,17 +248,11 @@
                 <!-- CTA Button -->
                 <div class="flex justify-center mt-10">
                     <div class="relative">
-                        <button
-                            class="group relative bg-[#000032] text-white px-10 py-4 text-sm font-medium tracking-wide uppercase transition-all duration-300 hover:bg-gray-800 border-2 border-black hover:border-gray-800 overflow-hidden rounded-md">
-                            <span class="relative z-10">Start Free Consultation</span>
-                            <div
-                                class="absolute inset-0 bg-white transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out">
-                            </div>
-                            <span
-                                class="absolute inset-0 flex items-center justify-center text-black font-medium tracking-wide uppercase opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
-                                Start Free Consultation
-                            </span>
-                        </button>
+                        <button class="group relative bg-[#000032] text-white px-10 py-4 text-sm font-medium tracking-wide uppercase transition-all duration-300 hover:bg-gray-800 border-2 border-black hover:border-gray-800 overflow-hidden rounded-md" onclick="document.getElementById('enquiryModal').classList.remove('hidden')">
+                        <span class="relative z-10">Schedule Free Consultation</span>
+                        <div class="absolute inset-0 bg-white transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out"></div>
+                        <span class="absolute inset-0 flex items-center justify-center text-black font-medium tracking-wide uppercase opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">Schedule Free Consultation</span>
+                      </button>
                     </div>
                 </div>
             </div>
@@ -268,367 +260,84 @@
         {{-- testimonial --}}
         <section class="py-14 bg-gray-50">
             <div class="container mx-auto px-4 max-w-7xl">
-                <div class="text-center mb-16">
-                    <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-                        Trusted by Industry
-                        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">
-                        Leaders Worldwide
-                        </span>
-                    </h2>
-                    
-                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                        Join hundreds of satisfied clients who have transformed their business with our expert solutions
+                
+                 <!-- Testimonial Section -->
+                <section class="max-w-7xl mx-auto px-6 py-20">
+                    <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-gray-800">What Our Clients Say</h2>
+                    <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+                        Trusted by businesses across India for compliance, certification, and regulatory services.
                     </p>
-                </div>
-                <div class="mb-12 relative">
-                    <div class="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-0">
-                        
-                        <!-- Testimonial 1 -->
-                        <div>
-                            <div class="group relative bg-white rounded-2xl p-6 shadow-sm border border-gray-100 
-                                        hover:shadow-xl hover:border-gray-200 transition-all duration-300 
-                                        hover:-translate-y-1 break-inside-avoid mb-6">
-                                <div class="flex flex-col">
-                                
-                                <!-- Stars -->
-                                <div class="flex items-center justify-between mb-4">
-                                    <div class="flex space-x-1">
-                                        <!-- 5 Stars -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                    </div>
-                                </div>
-                                
-                                <!-- Feedback -->
-                                <blockquote class="text-gray-700 leading-relaxed mb-6">
-                                    "Quite good experience for working with Vincular. Your response to both BIS
-                                    inquires and applications are of high efficiency and very clear. Appreciated
-                                    if you may give us more instruction/explanation to the updated regulation of
-                                    India in future."
-                                </blockquote>
-                                
-                                <!-- Author -->
-                                <div class="flex items-center space-x-3">
-                                    <img 
-                                    class="rounded-full"
-                                    alt="Judy Wu"
-                                    loading="lazy"
-                                    width="40"
-                                    height="40"
-                                    src="{{asset('images/judy.webp')}}"
-                                    >
-                                    <div>
-                                    <h4 class="font-medium text-gray-900 text-sm">Judy Wu</h4>
-                                    <p class="text-gray-500 text-xs">Intertek Testing Services Ltd, Shanghai</p>
-                                    </div>
-                                </div>
-                                
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Testimonial-2 -->
-                        <div>
-                            <div class="group relative bg-white rounded-2xl p-6 shadow-sm border border-gray-100 
-                                        hover:shadow-xl hover:border-gray-200 transition-all duration-300 
-                                        hover:-translate-y-1 break-inside-avoid mb-6">
-                                <div class="flex flex-col">
-                                
-                                <!-- Stars -->
-                                <div class="flex items-center justify-between mb-4">
-                                    <div class="flex space-x-1">
-                                        <!-- 5 Stars -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                    </div>
-                                </div>
-                                
-                                <!-- Feedback -->
-                                <blockquote class="text-gray-700 leading-relaxed mb-6">
-                                    "Quite good experience for working with Vincular. Your response to both BIS
-                                    inquires and applications are of high efficiency and very clear. Appreciated
-                                    if you may give us more instruction/explanation to the updated regulation of
-                                    India in future."
-                                </blockquote>
-                                
-                                <!-- Author -->
-                                <div class="flex items-center space-x-3">
-                                    <img 
-                                    class="rounded-full"
-                                    alt="Judy Wu"
-                                    loading="lazy"
-                                    width="40"
-                                    height="40"
-                                    src="{{asset('images/judy.webp')}}"
-                                    >
-                                    <div>
-                                    <h4 class="font-medium text-gray-900 text-sm">Judy Wu</h4>
-                                    <p class="text-gray-500 text-xs">Intertek Testing Services Ltd, Shanghai</p>
-                                    </div>
-                                </div>
-                                
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Testimonial-2 -->
-                        <div>
-                            <div class="group relative bg-white rounded-2xl p-6 shadow-sm border border-gray-100 
-                                        hover:shadow-xl hover:border-gray-200 transition-all duration-300 
-                                        hover:-translate-y-1 break-inside-avoid mb-6">
-                                <div class="flex flex-col">
-                                
-                                <!-- Stars -->
-                                <div class="flex items-center justify-between mb-4">
-                                    <div class="flex space-x-1">
-                                        <!-- 5 Stars -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                    </div>
-                                </div>
-                                
-                                <!-- Feedback -->
-                                <blockquote class="text-gray-700 leading-relaxed mb-6">
-                                    "Quite good experience for working with Vincular. Your response to both BIS
-                                    inquires and applications are of high efficiency and very clear. Appreciated
-                                    if you may give us more instruction/explanation to the updated regulation of
-                                    India in future."
-                                </blockquote>
-                                
-                                <!-- Author -->
-                                <div class="flex items-center space-x-3">
-                                    <img 
-                                    class="rounded-full"
-                                    alt="Judy Wu"
-                                    loading="lazy"
-                                    width="40"
-                                    height="40"
-                                    src="{{asset('images/judy.webp')}}"
-                                    >
-                                    <div>
-                                    <h4 class="font-medium text-gray-900 text-sm">Judy Wu</h4>
-                                    <p class="text-gray-500 text-xs">Intertek Testing Services Ltd, Shanghai</p>
-                                    </div>
-                                </div>
-                                
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
+                    </div>
 
-                        <!-- Repeat for other testimonials (2, 3, 4...) -->
-                        
-                    </div>
-                    <div class="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-0">
-                        
-                        <!-- Testimonial 1 -->
+                    <!-- Testimonials Grid -->
+                    <div class="grid md:grid-cols-3 gap-8">
+                    
+                    <!-- Card 1 -->
+                    <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
+                        <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client" class="w-14 h-14 rounded-full mr-4">
                         <div>
-                            <div class="group relative bg-white rounded-2xl p-6 shadow-sm border border-gray-100 
-                                        hover:shadow-xl hover:border-gray-200 transition-all duration-300 
-                                        hover:-translate-y-1 break-inside-avoid mb-6">
-                                <div class="flex flex-col">
-                                
-                                <!-- Stars -->
-                                <div class="flex items-center justify-between mb-4">
-                                    <div class="flex space-x-1">
-                                        <!-- 5 Stars -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                    </div>
-                                </div>
-                                
-                                <!-- Feedback -->
-                                <blockquote class="text-gray-700 leading-relaxed mb-6">
-                                    "Quite good experience for working with Vincular. Your response to both BIS
-                                    inquires and applications are of high efficiency and very clear. Appreciated
-                                    if you may give us more instruction/explanation to the updated regulation of
-                                    India in future."
-                                </blockquote>
-                                
-                                <!-- Author -->
-                                <div class="flex items-center space-x-3">
-                                    <img 
-                                    class="rounded-full"
-                                    alt="Judy Wu"
-                                    loading="lazy"
-                                    width="40"
-                                    height="40"
-                                    src="{{asset('images/judy.webp')}}"
-                                    >
-                                    <div>
-                                    <h4 class="font-medium text-gray-900 text-sm">Judy Wu</h4>
-                                    <p class="text-gray-500 text-xs">Intertek Testing Services Ltd, Shanghai</p>
-                                    </div>
-                                </div>
-                                
-                                </div>
-                            </div>
+                            <h3 class="text-lg font-semibold">Amit Sharma</h3>
+                            <p class="text-gray-500 text-sm">Entrepreneur</p>
                         </div>
-                        <!-- Testimonial-2 -->
-                        <div>
-                            <div class="group relative bg-white rounded-2xl p-6 shadow-sm border border-gray-100 
-                                        hover:shadow-xl hover:border-gray-200 transition-all duration-300 
-                                        hover:-translate-y-1 break-inside-avoid mb-6">
-                                <div class="flex flex-col">
-                                
-                                <!-- Stars -->
-                                <div class="flex items-center justify-between mb-4">
-                                    <div class="flex space-x-1">
-                                        <!-- 5 Stars -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                    </div>
-                                </div>
-                                
-                                <!-- Feedback -->
-                                <blockquote class="text-gray-700 leading-relaxed mb-6">
-                                    "Quite good experience for working with Vincular. Your response to both BIS
-                                    inquires and applications are of high efficiency and very clear. Appreciated
-                                    if you may give us more instruction/explanation to the updated regulation of
-                                    India in future."
-                                </blockquote>
-                                
-                                <!-- Author -->
-                                <div class="flex items-center space-x-3">
-                                    <img 
-                                    class="rounded-full"
-                                    alt="Judy Wu"
-                                    loading="lazy"
-                                    width="40"
-                                    height="40"
-                                    src="{{asset('images/judy.webp')}}"
-                                    >
-                                    <div>
-                                    <h4 class="font-medium text-gray-900 text-sm">Judy Wu</h4>
-                                    <p class="text-gray-500 text-xs">Intertek Testing Services Ltd, Shanghai</p>
-                                    </div>
-                                </div>
-                                
-                                </div>
-                            </div>
                         </div>
-                        <!-- Testimonial-2 -->
-                        <div>
-                            <div class="group relative bg-white rounded-2xl p-6 shadow-sm border border-gray-100 
-                                        hover:shadow-xl hover:border-gray-200 transition-all duration-300 
-                                        hover:-translate-y-1 break-inside-avoid mb-6">
-                                <div class="flex flex-col">
-                                
-                                <!-- Stars -->
-                                <div class="flex items-center justify-between mb-4">
-                                    <div class="flex space-x-1">
-                                        <!-- 5 Stars -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400" aria-hidden="true">
-                                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
-                                        </svg>
-                                    </div>
-                                </div>
-                                
-                                <!-- Feedback -->
-                                <blockquote class="text-gray-700 leading-relaxed mb-6">
-                                    "Quite good experience for working with Vincular. Your response to both BIS
-                                    inquires and applications are of high efficiency and very clear. Appreciated
-                                    if you may give us more instruction/explanation to the updated regulation of
-                                    India in future."
-                                </blockquote>
-                                
-                                <!-- Author -->
-                                <div class="flex items-center space-x-3">
-                                    <img 
-                                    class="rounded-full"
-                                    alt="Judy Wu"
-                                    loading="lazy"
-                                    width="40"
-                                    height="40"
-                                    src="{{asset('images/judy.webp')}}"
-                                    >
-                                    <div>
-                                    <h4 class="font-medium text-gray-900 text-sm">Judy Wu</h4>
-                                    <p class="text-gray-500 text-xs">Intertek Testing Services Ltd, Shanghai</p>
-                                    </div>
-                                </div>
-                                
-                                </div>
-                            </div>
-                        </div>    
+                        <p class="text-gray-600 mb-4">
+                        Sociallabs.in made my FSSAI registration process effortless. Their team guided me through each step with professionalism and clarity.
+                        </p>
+                        <div class="flex text-yellow-400">
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.756 4.635 1.123 6.545z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.756 4.635 1.123 6.545z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.756 4.635 1.123 6.545z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.756 4.635 1.123 6.545z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.756 4.635 1.123 6.545z"/></svg>
+                        </div>
                     </div>
-                </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
+                        <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Client" class="w-14 h-14 rounded-full mr-4">
+                        <div>
+                            <h3 class="text-lg font-semibold">Neha Verma</h3>
+                            <p class="text-gray-500 text-sm">Startup Founder</p>
+                        </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">
+                        The BIS certification for my products was handled smoothly. I saved so much time and avoided unnecessary hassles.
+                        </p>
+                        <div class="flex text-yellow-400">
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.756 4.635 1.123 6.545z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.756 4.635 1.123 6.545z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.756 4.635 1.123 6.545z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.756 4.635 1.123 6.545z"/></svg>
+                        <svg class="w-5 h-5 fill-current opacity-40" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.756 4.635 1.123 6.545z"/></svg>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
+                        <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="Client" class="w-14 h-14 rounded-full mr-4">
+                        <div>
+                            <h3 class="text-lg font-semibold">Rajesh Kumar</h3>
+                            <p class="text-gray-500 text-sm">Manufacturer</p>
+                        </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">
+                        Thanks to Sociallabs.in, I received my WPC approval quickly. Their team is responsive and highly professional.
+                        </p>
+                        <div class="flex text-yellow-400">
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.756 4.635 1.123 6.545z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.756 4.635 1.123 6.545z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.756 4.635 1.123 6.545z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.756 4.635 1.123 6.545z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.562-.955L10 0l2.949 5.955 6.562.955-4.756 4.635 1.123 6.545z"/></svg>
+                        </div>
+                    </div>
+
+                    </div>
+                </section>
                 <div class="bg-white rounded-3xl py-8 md:p-12 shadow-sm border border-gray-100">
                     <!-- Heading & Subtext -->
                     <div class="mt-2 text-center">
@@ -674,292 +383,102 @@
             <div class="jsx-e1fb4e9d91308d96 max-w-7xl mx-auto px-6 lg:px-8">
 
                 <!-- Section Header -->
-                <div class="jsx-e1fb4e9d91308d96 mb-12">
-                <div class="jsx-e1fb4e9d91308d96 flex items-baseline justify-between mb-6">
-                    <h2 class="jsx-e1fb4e9d91308d96 text-5xl lg:text-6xl font-light text-white tracking-tight">
-                    Services
-                    </h2>
-                </div>
-
-                <div class="jsx-e1fb4e9d91308d96 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
-                    <p class="jsx-e1fb4e9d91308d96 text-xl text-gray-400 font-light max-w-2xl leading-relaxed">
-                    Comprehensive compliance solutions across regulatory bodies in India and international markets.
+                  <!-- Services Section -->
+                <section class="max-w-7xl mx-auto px-6 py-20">
+                    <!-- Heading -->
+                    <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-white">Our Services</h2>
+                    <p class="text-white mt-4 max-w-2xl mx-auto">
+                        At <strong>Sociallabs.in</strong>, we simplify compliance and certification services 
+                        to help your business grow without legal roadblocks.
                     </p>
-
-                    <!-- Search Bar -->
-                    <div class="jsx-e1fb4e9d91308d96 relative max-w-xs">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round"
-                        class="lucide lucide-search absolute left-0 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-500"
-                        aria-hidden="true">
-                        <path d="m21 21-4.34-4.34"></path>
-                        <circle cx="11" cy="11" r="8"></circle>
-                    </svg>
-
-                    <input
-                        type="text"
-                        placeholder="Search services..."
-                        value=""
-                        class="jsx-e1fb4e9d91308d96 w-full bg-transparent border-0 border-b border-gray-700 
-                            focus:border-gray-500 pl-7 pr-0 py-3 text-white placeholder-gray-500 
-                            focus:outline-none transition-colors duration-300 text-base"
-                    />
                     </div>
-                </div>
-                </div>
 
-                <!-- Masonry Grid -->
-                <div class="jsx-e1fb4e9d91308d96 masonry-grid">
-
-                    <!-- Example Service Group -->
-                    <div class="jsx-e1fb4e9d91308d96 group">
-                        <div class="jsx-e1fb4e9d91308d96 flex items-start gap-4 mb-6">
-                        <span class="jsx-e1fb4e9d91308d96 text-gray-400 text-lg font-mono mt-0 w-8">01</span>
-                        <div class="jsx-e1fb4e9d91308d96 flex-1 min-w-0">
-                            <h3 class="jsx-e1fb4e9d91308d96 text-xl font-poppins text-white mb-3 leading-tight">
-                            Bureau of Indian Standards (BIS)
-                            </h3>
-                            <div class="jsx-e1fb4e9d91308d96 h-px bg-gray-700 group-hover:bg-gray-600 transition-colors duration-500"></div>
+                    <!-- Services Grid -->
+                    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    <!-- Service Card -->
+                    <div class="bg-white rounded-2xl shadow p-8 hover:shadow-xl transition">
+                        <div class="w-14 h-14 flex items-center justify-center bg-blue-100 text-blue-600 rounded-full mb-6">
+                        📜
                         </div>
-                        </div>
-
-                        <div class="jsx-e1fb4e9d91308d96 ml-12 space-y-3">
-                        <!-- Service Link -->
-                        <div class="jsx-e1fb4e9d91308d96 group/service">
-                            <a href="/isi"
-                            class="flex items-start justify-between py-1 hover:bg-white/[0.8] 
-                                    -mx-3 px-3 rounded-md transition-all duration-300 group/link">
-                            
-                            <div class="jsx-e1fb4e9d91308d96 flex items-start gap-3 flex-1 min-w-0">
-                                <span class="jsx-e1fb4e9d91308d96 text-gray-400 text-sm font-mono mt-1 w-6 flex-shrink-0">01</span>
-                                <span class="jsx-e1fb4e9d91308d96 text-white font-poppins text-base leading-relaxed 
-                                            group-hover/link:text-black transition-colors duration-300">
-                                ISI Mark Certification (Scheme-1)
-                                </span>
-                            </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-arrow-up-right w-4 h-4 text-gray-100 
-                                        opacity-0 group-hover/link:opacity-100 group-hover/link:text-black 
-                                        transition-all duration-300 flex-shrink-0 mt-1"
-                                aria-hidden="true">
-                                <path d="M7 7h10v10"></path>
-                                <path d="M7 17 17 7"></path>
-                            </svg>
-                            </a>
-                        </div>
-                        </div>
+                        <h3 class="text-xl font-semibold mb-3">FSSAI Registration</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                        Get hassle-free Food Safety and Standards Authority of India (FSSAI) registration 
+                        for your food business with our expert guidance.
+                        </p>
                     </div>
-                    <div class="jsx-e1fb4e9d91308d96 group">
-                        <div class="jsx-e1fb4e9d91308d96 flex items-start gap-4 mb-6">
-                        <span class="jsx-e1fb4e9d91308d96 text-gray-400 text-lg font-mono mt-0 w-8">02</span>
-                        <div class="jsx-e1fb4e9d91308d96 flex-1 min-w-0">
-                            <h3 class="jsx-e1fb4e9d91308d96 text-xl font-poppins text-white mb-3 leading-tight">
-                            Bureau of Indian Standards (BIS)
-                            </h3>
-                            <div class="jsx-e1fb4e9d91308d96 h-px bg-gray-700 group-hover:bg-gray-600 transition-colors duration-500"></div>
-                        </div>
-                        </div>
 
-                        <div class="jsx-e1fb4e9d91308d96 ml-12 space-y-3">
-                        <!-- Service Link -->
-                        <div class="jsx-e1fb4e9d91308d96 group/service">
-                            <a href="/isi"
-                            class="flex items-start justify-between py-1 hover:bg-white/[0.8] 
-                                    -mx-3 px-3 rounded-md transition-all duration-300 group/link">
-                            
-                            <div class="jsx-e1fb4e9d91308d96 flex items-start gap-3 flex-1 min-w-0">
-                                <span class="jsx-e1fb4e9d91308d96 text-gray-400 text-sm font-mono mt-1 w-6 flex-shrink-0">01</span>
-                                <span class="jsx-e1fb4e9d91308d96 text-white font-poppins text-base leading-relaxed 
-                                            group-hover/link:text-black transition-colors duration-300">
-                                ISI Mark Certification (Scheme-1)
-                                </span>
-                            </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-arrow-up-right w-4 h-4 text-gray-100 
-                                        opacity-0 group-hover/link:opacity-100 group-hover/link:text-black 
-                                        transition-all duration-300 flex-shrink-0 mt-1"
-                                aria-hidden="true">
-                                <path d="M7 7h10v10"></path>
-                                <path d="M7 17 17 7"></path>
-                            </svg>
-                            </a>
+                    <!-- Service Card -->
+                    <div class="bg-white rounded-2xl shadow p-8 hover:shadow-xl transition">
+                        <div class="w-14 h-14 flex items-center justify-center bg-indigo-100 text-indigo-600 rounded-full mb-6">
+                        ✅
                         </div>
-                        </div>
+                        <h3 class="text-xl font-semibold mb-3">BIS Certification</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                        Ensure your products meet Indian safety and quality standards with Bureau of Indian Standards (BIS) certification services.
+                        </p>
                     </div>
-                    <div class="jsx-e1fb4e9d91308d96 group">
-                        <div class="jsx-e1fb4e9d91308d96 flex items-start gap-4 mb-6">
-                        <span class="jsx-e1fb4e9d91308d96 text-gray-400 text-lg font-mono mt-0 w-8">02</span>
-                        <div class="jsx-e1fb4e9d91308d96 flex-1 min-w-0">
-                            <h3 class="jsx-e1fb4e9d91308d96 text-xl font-poppins text-white mb-3 leading-tight">
-                            Bureau of Indian Standards (BIS)
-                            </h3>
-                            <div class="jsx-e1fb4e9d91308d96 h-px bg-gray-700 group-hover:bg-gray-600 transition-colors duration-500"></div>
-                        </div>
-                        </div>
 
-                        <div class="jsx-e1fb4e9d91308d96 ml-12 space-y-3">
-                        <!-- Service Link -->
-                        <div class="jsx-e1fb4e9d91308d96 group/service">
-                            <a href="/isi"
-                            class="flex items-start justify-between py-1 hover:bg-white/[0.8] 
-                                    -mx-3 px-3 rounded-md transition-all duration-300 group/link">
-                            
-                            <div class="jsx-e1fb4e9d91308d96 flex items-start gap-3 flex-1 min-w-0">
-                                <span class="jsx-e1fb4e9d91308d96 text-gray-400 text-sm font-mono mt-1 w-6 flex-shrink-0">01</span>
-                                <span class="jsx-e1fb4e9d91308d96 text-white font-poppins text-base leading-relaxed 
-                                            group-hover/link:text-black transition-colors duration-300">
-                                ISI Mark Certification (Scheme-1)
-                                </span>
-                            </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-arrow-up-right w-4 h-4 text-gray-100 
-                                        opacity-0 group-hover/link:opacity-100 group-hover/link:text-black 
-                                        transition-all duration-300 flex-shrink-0 mt-1"
-                                aria-hidden="true">
-                                <path d="M7 7h10v10"></path>
-                                <path d="M7 17 17 7"></path>
-                            </svg>
-                            </a>
+                    <!-- Service Card -->
+                    <div class="bg-white rounded-2xl shadow p-8 hover:shadow-xl transition">
+                        <div class="w-14 h-14 flex items-center justify-center bg-green-100 text-green-600 rounded-full mb-6">
+                        📡
                         </div>
-                        </div>
+                        <h3 class="text-xl font-semibold mb-3">WPC Approval</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                        Secure Wireless Planning and Coordination (WPC) approval for wireless and telecom devices without delays.
+                        </p>
                     </div>
-                    <div class="jsx-e1fb4e9d91308d96 group">
-                        <div class="jsx-e1fb4e9d91308d96 flex items-start gap-4 mb-6">
-                        <span class="jsx-e1fb4e9d91308d96 text-gray-400 text-lg font-mono mt-0 w-8">02</span>
-                        <div class="jsx-e1fb4e9d91308d96 flex-1 min-w-0">
-                            <h3 class="jsx-e1fb4e9d91308d96 text-xl font-poppins text-white mb-3 leading-tight">
-                            Bureau of Indian Standards (BIS)
-                            </h3>
-                            <div class="jsx-e1fb4e9d91308d96 h-px bg-gray-700 group-hover:bg-gray-600 transition-colors duration-500"></div>
-                        </div>
-                        </div>
 
-                        <div class="jsx-e1fb4e9d91308d96 ml-12 space-y-3">
-                        <!-- Service Link -->
-                        <div class="jsx-e1fb4e9d91308d96 group/service">
-                            <a href="/isi"
-                            class="flex items-start justify-between py-1 hover:bg-white/[0.8] 
-                                    -mx-3 px-3 rounded-md transition-all duration-300 group/link">
-                            
-                            <div class="jsx-e1fb4e9d91308d96 flex items-start gap-3 flex-1 min-w-0">
-                                <span class="jsx-e1fb4e9d91308d96 text-gray-400 text-sm font-mono mt-1 w-6 flex-shrink-0">01</span>
-                                <span class="jsx-e1fb4e9d91308d96 text-white font-poppins text-base leading-relaxed 
-                                            group-hover/link:text-black transition-colors duration-300">
-                                ISI Mark Certification (Scheme-1)
-                                </span>
-                            </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-arrow-up-right w-4 h-4 text-gray-100 
-                                        opacity-0 group-hover/link:opacity-100 group-hover/link:text-black 
-                                        transition-all duration-300 flex-shrink-0 mt-1"
-                                aria-hidden="true">
-                                <path d="M7 7h10v10"></path>
-                                <path d="M7 17 17 7"></path>
-                            </svg>
-                            </a>
+                    <!-- Service Card -->
+                    <div class="bg-white rounded-2xl shadow p-8 hover:shadow-xl transition">
+                        <div class="w-14 h-14 flex items-center justify-center bg-purple-100 text-purple-600 rounded-full mb-6">
+                        💊
                         </div>
-                        </div>
+                        <h3 class="text-xl font-semibold mb-3">CDSCO Registration</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                        Get Central Drugs Standard Control Organization (CDSCO) approval for medical devices and pharma products.
+                        </p>
                     </div>
-                    <div class="jsx-e1fb4e9d91308d96 group">
-                        <div class="jsx-e1fb4e9d91308d96 flex items-start gap-4 mb-6">
-                        <span class="jsx-e1fb4e9d91308d96 text-gray-400 text-lg font-mono mt-0 w-8">02</span>
-                        <div class="jsx-e1fb4e9d91308d96 flex-1 min-w-0">
-                            <h3 class="jsx-e1fb4e9d91308d96 text-xl font-poppins text-white mb-3 leading-tight">
-                            Bureau of Indian Standards (BIS)
-                            </h3>
-                            <div class="jsx-e1fb4e9d91308d96 h-px bg-gray-700 group-hover:bg-gray-600 transition-colors duration-500"></div>
-                        </div>
-                        </div>
 
-                        <div class="jsx-e1fb4e9d91308d96 ml-12 space-y-3">
-                        <!-- Service Link -->
-                        <div class="jsx-e1fb4e9d91308d96 group/service">
-                            <a href="/isi"
-                            class="flex items-start justify-between py-1 hover:bg-white/[0.8] 
-                                    -mx-3 px-3 rounded-md transition-all duration-300 group/link">
-                            
-                            <div class="jsx-e1fb4e9d91308d96 flex items-start gap-3 flex-1 min-w-0">
-                                <span class="jsx-e1fb4e9d91308d96 text-gray-400 text-sm font-mono mt-1 w-6 flex-shrink-0">01</span>
-                                <span class="jsx-e1fb4e9d91308d96 text-white font-poppins text-base leading-relaxed 
-                                            group-hover/link:text-black transition-colors duration-300">
-                                ISI Mark Certification (Scheme-1)
-                                </span>
-                            </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-arrow-up-right w-4 h-4 text-gray-100 
-                                        opacity-0 group-hover/link:opacity-100 group-hover/link:text-black 
-                                        transition-all duration-300 flex-shrink-0 mt-1"
-                                aria-hidden="true">
-                                <path d="M7 7h10v10"></path>
-                                <path d="M7 17 17 7"></path>
-                            </svg>
-                            </a>
+                    <!-- Service Card -->
+                    <div class="bg-white rounded-2xl shadow p-8 hover:shadow-xl transition">
+                        <div class="w-14 h-14 flex items-center justify-center bg-red-100 text-red-600 rounded-full mb-6">
+                        📞
                         </div>
-                        </div>
+                        <h3 class="text-xl font-semibold mb-3">DOT Licensing</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                        We handle Department of Telecommunications (DOT) licenses to keep your telecom business compliant and operational.
+                        </p>
                     </div>
-                    <div class="jsx-e1fb4e9d91308d96 group">
-                        <div class="jsx-e1fb4e9d91308d96 flex items-start gap-4 mb-6">
-                        <span class="jsx-e1fb4e9d91308d96 text-gray-400 text-lg font-mono mt-0 w-8">02</span>
-                        <div class="jsx-e1fb4e9d91308d96 flex-1 min-w-0">
-                            <h3 class="jsx-e1fb4e9d91308d96 text-xl font-poppins text-white mb-3 leading-tight">
-                            Bureau of Indian Standards (BIS)
-                            </h3>
-                            <div class="jsx-e1fb4e9d91308d96 h-px bg-gray-700 group-hover:bg-gray-600 transition-colors duration-500"></div>
-                        </div>
-                        </div>
 
-                        <div class="jsx-e1fb4e9d91308d96 ml-12 space-y-3">
-                        <!-- Service Link -->
-                        <div class="jsx-e1fb4e9d91308d96 group/service">
-                            <a href="/isi"
-                            class="flex items-start justify-between py-1 hover:bg-white/[0.8] 
-                                    -mx-3 px-3 rounded-md transition-all duration-300 group/link">
-                            
-                            <div class="jsx-e1fb4e9d91308d96 flex items-start gap-3 flex-1 min-w-0">
-                                <span class="jsx-e1fb4e9d91308d96 text-gray-400 text-sm font-mono mt-1 w-6 flex-shrink-0">01</span>
-                                <span class="jsx-e1fb4e9d91308d96 text-white font-poppins text-base leading-relaxed 
-                                            group-hover/link:text-black transition-colors duration-300">
-                                ISI Mark Certification (Scheme-1)
-                                </span>
-                            </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-arrow-up-right w-4 h-4 text-gray-100 
-                                        opacity-0 group-hover/link:opacity-100 group-hover/link:text-black 
-                                        transition-all duration-300 flex-shrink-0 mt-1"
-                                aria-hidden="true">
-                                <path d="M7 7h10v10"></path>
-                                <path d="M7 17 17 7"></path>
-                            </svg>
-                            </a>
+                    <!-- Service Card -->
+                    <div class="bg-white rounded-2xl shadow p-8 hover:shadow-xl transition">
+                        <div class="w-14 h-14 flex items-center justify-center bg-yellow-100 text-yellow-600 rounded-full mb-6">
+                        🔒
                         </div>
-                        </div>
+                        <h3 class="text-xl font-semibold mb-3">PESO Certification</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                        Ensure safety compliance with Petroleum and Explosives Safety Organization (PESO) certifications for your business.
+                        </p>
                     </div>
+
+                    </div>
+                </section>
+
+                <!-- CTA -->
+                <section class="bg-gradient-to-r from-indigo-600 to-blue-600 text-white py-12 text-center">
+                    <h3 class="text-2xl font-semibold mb-4">Need Help with Compliance?</h3>
+                    <p class="mb-6">Let Sociallabs.in take care of your certifications and approvals.</p>
+                    <a href="/contact" class="bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100">
+                    Get Started
+                    </a>
+                </section>
+
+                    
+                
+                  
 
                 <!-- Repeat same structure for BEE, WPC, TEC, STQC, GMA, Consumer Affairs, CDSCO, etc. -->
                 </div>
@@ -1196,17 +715,17 @@
                 </div>
             </div>
         </section>
-        <section class="py-20 bg-gray-50">
+        {{-- <section class="py-20 bg-gray-50">
             <div class="max-w-7xl mx-auto px-6 lg:px-8">
                 
                 <!-- Section Heading -->
                 <div class="text-center mb-16">
-                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                    Latest Insights & Updates
-                </h2>
-                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-                    Stay ahead with our expert articles, tips, and industry news.
-                </p>
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                        Latest Insights & Updates
+                    </h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                        Stay ahead with our expert articles, tips, and industry news.
+                    </p>
                 </div>
 
                 <!-- Blog Grid -->
@@ -1434,7 +953,7 @@
                         <a href="/mandatory-bis-scheme-x-for-motor-controllers-starters-and-soft-starters" class="block group">
                         <article class="bg-white rounded-3xl border border-slate-200 overflow-hidden hover:border-slate-300 hover:shadow-xl transition-all duration-500 hover:-translate-y-1">
                             <div class="relative w-full bg-gradient-to-br from-slate-50 via-white to-slate-100 overflow-hidden">
-                                <img src="https://wp.vincular.in/wp-content/uploads/2025/08/Day-6-IS_IEC-60947_-Part-4_-Section-2_-2020.jpg"
+                                <img src="https://wp.Sociallabs.in/wp-content/uploads/2025/08/Day-6-IS_IEC-60947_-Part-4_-Section-2_-2020.jpg"
                                     alt="Mandatory BIS Scheme X certification applies to low-voltage switchgear and control gear, including contactors and motor starters"
                                     class="w-full h-auto group-hover:scale-105 transition-transform duration-700">
                             </div>
@@ -1482,7 +1001,7 @@
                         <a href="/bis-scheme-x-mandatory-for-contactors-and-motor-starters" class="block group">
                         <article class="bg-white rounded-3xl border border-slate-200 overflow-hidden hover:border-slate-300 hover:shadow-xl transition-all duration-500 hover:-translate-y-1">
                             <div class="relative w-full bg-gradient-to-br from-slate-50 via-white to-slate-100 overflow-hidden">
-                            <img src="https://wp.vincular.in/wp-content/uploads/2025/08/Day-5-IS_IEC-60947_-Part-4_-Section-1.jpg"
+                            <img src="https://wp.Sociallabs.in/wp-content/uploads/2025/08/Day-5-IS_IEC-60947_-Part-4_-Section-1.jpg"
                                 alt="BIS Scheme X Mandatory certification for low-voltage switchgear and Control gear such as Contactors and Motor-Starters."
                                 class="w-full h-auto group-hover:scale-105 transition-transform duration-700">
                             </div>
@@ -1530,7 +1049,7 @@
                         <a href="/bis-scheme-x-mandatory-for-switches-disconnectors" class="block group">
                         <article class="bg-white rounded-3xl border border-slate-200 overflow-hidden hover:border-slate-300 hover:shadow-xl transition-all duration-500 hover:-translate-y-1">
                             <div class="relative w-full bg-gradient-to-br from-slate-50 via-white to-slate-100 overflow-hidden">
-                            <img src="https://wp.vincular.in/wp-content/uploads/2025/08/Day-4-IS_IEC-60947_-Part-5_-Sec-1_-2016.jpg"
+                            <img src="https://wp.Sociallabs.in/wp-content/uploads/2025/08/Day-4-IS_IEC-60947_-Part-5_-Sec-1_-2016.jpg"
                                 alt="BIS Scheme X Mandatory certification for low-voltage switchgear and Control gear such as switches, disconnectors."
                                 class="w-full h-auto group-hover:scale-105 transition-transform duration-700">
                             </div>
@@ -1582,7 +1101,7 @@
                         <a href="/mandatory-bis-scheme-x-for-motor-controllers-starters-and-soft-starters" class="block group">
                             <article class="bg-white rounded-3xl border border-slate-200 overflow-hidden hover:border-slate-300 hover:shadow-xl transition-all duration-500 hover:-translate-y-1">
                                 <div class="relative w-full bg-gradient-to-br from-slate-50 via-white to-slate-100 overflow-hidden">
-                                    <img src="https://wp.vincular.in/wp-content/uploads/2025/08/Day-6-IS_IEC-60947_-Part-4_-Section-2_-2020.jpg"
+                                    <img src="https://wp.Sociallabs.in/wp-content/uploads/2025/08/Day-6-IS_IEC-60947_-Part-4_-Section-2_-2020.jpg"
                                         alt="Mandatory BIS Scheme X certification applies to low-voltage switchgear and control gear, including contactors and motor starters"
                                         class="w-full h-auto group-hover:scale-105 transition-transform duration-700">
                                 </div>
@@ -1631,7 +1150,7 @@
                         <a href="/bis-scheme-x-mandatory-for-contactors-and-motor-starters" class="block group">
                             <article class="bg-white rounded-3xl border border-slate-200 overflow-hidden hover:border-slate-300 hover:shadow-xl transition-all duration-500 hover:-translate-y-1">
                             <div class="relative w-full bg-gradient-to-br from-slate-50 via-white to-slate-100 overflow-hidden">
-                                <img src="https://wp.vincular.in/wp-content/uploads/2025/08/Day-5-IS_IEC-60947_-Part-4_-Section-1.jpg"
+                                <img src="https://wp.Sociallabs.in/wp-content/uploads/2025/08/Day-5-IS_IEC-60947_-Part-4_-Section-1.jpg"
                                     alt="BIS Scheme X Mandatory certification for low-voltage switchgear and Control gear such as Contactors and Motor-Starters."
                                     class="w-full h-auto group-hover:scale-105 transition-transform duration-700">
                             </div>
@@ -1679,7 +1198,7 @@
                         <a href="/bis-scheme-x-mandatory-for-switches-disconnectors" class="block group">
                             <article class="bg-white rounded-3xl border border-slate-200 overflow-hidden hover:border-slate-300 hover:shadow-xl transition-all duration-500 hover:-translate-y-1">
                             <div class="relative w-full bg-gradient-to-br from-slate-50 via-white to-slate-100 overflow-hidden">
-                                <img src="https://wp.vincular.in/wp-content/uploads/2025/08/Day-4-IS_IEC-60947_-Part-5_-Sec-1_-2016.jpg"
+                                <img src="https://wp.Sociallabs.in/wp-content/uploads/2025/08/Day-4-IS_IEC-60947_-Part-5_-Sec-1_-2016.jpg"
                                     alt="BIS Scheme X Mandatory certification for low-voltage switchgear and Control gear such as switches, disconnectors."
                                     class="w-full h-auto group-hover:scale-105 transition-transform duration-700">
                             </div>
@@ -1726,8 +1245,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section
+        </section> --}}
+         <section
                 class="my-12 mx-4 md:mx-auto max-w-4xl px-4 md:px-6 py-6 md:py-10 
                 bg-gradient-to-br from-slate-900 via-slate-800 to-black 
                 text-white rounded-3xl shadow-xl border border-slate-700/50 
@@ -1735,24 +1254,25 @@
             >
             <div class="text-center">
                 <h2 class="text-2xl md:text-3xl font-bold tracking-tight mb-3">
-                Stay in the Loop
+                Never Miss an Update
                 </h2>
 
                 <p class="text-slate-300 text-base md:text-lg mb-6">
-                Get insights and updates right in your inbox.
+                Get the latest insights and industry news delivered straight to your inbox.
                 </p>
 
-                <a
-                href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7026514322746937344"
-                target="_blank"
-                rel="noopener noreferrer"
+                <a 
+                href="javascript:void(0);"
+
+               
+               
                 class="group inline-flex items-center gap-3 px-6 py-3 
                         bg-slate-700/40 hover:bg-slate-600/40 
                         text-white text-base md:text-lg font-medium 
                         rounded-full transition-all duration-300 shadow-lg 
                         hover:scale-105 ring-1 ring-white/10 hover:ring-white/20"
-                >
-                Subscribe Now
+                onclick="document.getElementById('enquiryModal').classList.remove('hidden')">
+                Get in touch
                 <svg
                     class="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1"
                     fill="none"
@@ -1769,6 +1289,7 @@
                 </a>
             </div>
         </section>
+
     </div>
 </div>
 

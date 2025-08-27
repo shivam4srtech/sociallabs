@@ -5,7 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
+
 {
+
     public function about()
     {
         return view('about');
@@ -30,5 +32,23 @@ class PageController extends Controller
     {
         return view('servicePages.bureau-Energy-Efficiency');
     }
+        public function wpc()
+    {
+        return view('servicePages.wireless-planning');
+    }
+         public function fssai()
+    {
+        return view('servicePages.fssai');
+    }
+         public function csdcoMedical()
+    {
+        return view('servicePages.csdco-medical');
+    }
+        public function cosmetic()
+    {
+        return view('servicePages.csdco-cosmetic');
+    }
+    
+
 }
 
