@@ -31,14 +31,17 @@
   <section class="max-w-4xl mx-auto px-6 pb-20">
     <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12">
       <h2 class="text-2xl font-semibold mb-6 text-center">Send Us a Message</h2>
-      <form class="grid gap-6">
+       <div id="form-success" ></div>
+      <form class="grid gap-6" id="contactForm">
+          @csrf 
         <div class="grid md:grid-cols-2 gap-6">
-          <input type="text" placeholder="Full Name" class="w-full p-4 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" />
-          <input type="email" placeholder="Email Address" class="w-full p-4 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+          <input type="text" placeholder="Full Name" name="name" id="name" class="w-full errs p-4 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+
+          <input type="email"  name="email" id="email" placeholder="Email Address" class="errs w-full p-4 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" />
         </div>
-        <input type="text" placeholder="Phone Number" class="w-full p-4 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" />
-        <textarea rows="5" placeholder="Your Message" class="w-full p-4 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"></textarea>
-        <button type="submit" class="w-full bg-gradient-to-r from-indigo-600 to-blue-600 text-white font-semibold py-4 rounded-lg shadow hover:opacity-90 transition">
+        <input type="text" name="phone" id="phone" placeholder="Phone Number" class="w-full errs p-4 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+        <textarea rows="5" name="message" id="message" placeholder="Your Message" class="w-full errs p-4 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"></textarea>
+        <button type="button" class="sendcontact w-full bg-gradient-to-r from-indigo-600 to-blue-600 text-white font-semibold py-4 rounded-lg shadow hover:opacity-90 transition">
           Send Message
         </button>
       </form>

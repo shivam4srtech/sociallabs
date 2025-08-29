@@ -1,4 +1,132 @@
+$('.form-control').on('keypress change', function() {
+    $(this).next('span').text(''); 
+     $(this).attr('style','');
+});
 
+$('.errs').on('keypress change', function() {
+   
+    $(this).next('span').text(''); 
+    $(this).attr('style','');
+});
+$("body").on("click", ".sendcontact", (function() {
+   let ts = $('.sendcontact');
+   $(this).prop("disabled", !0), $(this).text("Loading...");
+      $.ajaxSetup({
+                    headers: {
+                                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                            }
+                });
+        $.ajax({
+        url: "/sendContactfrm",
+        type: "POST",
+        data: {
+            _token: $('input[name="_token"]').val(),
+            name: $("#name").val(),
+            email: $("#email").val(),
+            phone: $("#phone").val(),
+            message: $("#message").val()
+        },
+        dataType:'json',
+        success: function(t) {
+        if(t.response==true){
+          $("#contactForm")[0].reset();
+            $("#form-success").after(
+                                '<div class="alert mb-4 flex items-center justify-between rounded-lg bg-green-100 px-4 py-3 text-green-800">' +
+                                    '<span>Form Submitted Successfully</span>' +
+                                    '<button class="ml-2 text-green-700 hover:text-green-900" onclick="this.parentElement.remove()">&times;</button>' +
+                                '</div>'
+                            );
+
+                            // 2 minutes = 120000 ms
+                            setTimeout(function() {
+                                $(".alert").fadeOut("slow", function() {
+                                    $(this).remove();
+                                     location.reload();
+                                });
+                            }, 10000);
+                       
+            }else{
+                $("#form-success").after('<div class="mb-4 rounded-lg bg-red-100 border border-red-400 text-red-700 px-4 py-3" role="alert"><span class="font-semibold">Error!</span> Something went wrong.</div>'), setTimeout((function() {
+                            $(".alert").fadeOut("slow", (function() {
+                                $(this).remove()
+                            }))
+                        }), 10000)
+            }
+            ts.prop("disabled", false).text("Send Message");
+           
+        },
+        error: function(t) {
+            $.each(t.responseJSON.errors, (function(t, a) {
+                "name" == t ? $("#name").css("border-color", "red") : "email" == t ? $("#email").css("border-color", "red") : "phone" == t ? $("#phone").css("border-color", "red") : "message" == t && $("#message").css("border-color", "red")
+            }))
+            ts.prop("disabled", false).text("Send Message");
+        }
+    })
+})),
+$('body').on('click','#modalSubmitBtn',function(){
+    
+       var t = $(this);
+        $.ajaxSetup({
+                            headers: {
+                                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                            }
+                });
+            $(this).prop("disabled", !0), $(this).text("Loading...");
+                
+            $.ajax({
+                type: "post",
+                url: '/serviceContactFrm',
+                data: $('#modalContactForm').serialize(),
+                dataType:'json',
+                success: function (a) {
+                if(a.response==true){
+                 $("#modalContactForm")[0].reset();
+                   
+                  $(".contacttitle").after(
+                                '<div class="alert mb-4 flex items-center justify-between rounded-lg bg-green-100 px-4 py-3 text-green-800">' +
+                                    '<span>' + a.success + '</span>' +
+                                    '<button class="ml-2 text-green-700 hover:text-green-900" onclick="this.parentElement.remove()">&times;</button>' +
+                                '</div>'
+                            );
+
+                            // 2 minutes = 120000 ms
+                            setTimeout(function() {
+                                $(".alert").fadeOut("slow", function() {
+                                    $(this).remove();
+                                     location.reload();
+                                });
+                            }, 10000);
+                }else{
+                    $(".contacttitle").after('<div class="mb-4 rounded-lg bg-red-100 border border-red-400 text-red-700 px-4 py-3" role="alert"><span class="font-semibold">Error!</span> Something went wrong.</div>'), setTimeout((function() {
+                            $(".alert").fadeOut("slow", (function() {
+                                $(this).remove()
+                            }))
+                        }), 10000)
+                    
+                }
+            
+            // Re-enable the button and reset text
+                  t.prop("disabled", false).text("Send Message");
+                },error: function(a) {
+                 console.warn(a.responseJSON.errors);
+                    let t = $('#modalSubmitBtn');
+
+                    // Clear previous errors
+                    $('.fullName_error, .email_error, .phone_error, .message_error').text('');
+
+                    $.each(a.responseJSON.errors, function(field, messages) {
+                        if(field == "fullName") $(".fullName_error").text(messages[0]);
+                        if(field == "email") $(".email_error").text(messages[0]);
+                        if(field == "phone") $(".phone_error").text(messages[0]);
+                        if(field == "city") $(".city_error").text(messages[0]);
+                        if(field == "message") $(".message_error").text(messages[0]);
+                    });
+
+                    t.text("Send Message").prop("disabled", false);
+            }
+               });
+})
+  
   //==================navbar js========================
     document.querySelectorAll(".menu-btn").forEach(btn => {
     const targetId = btn.getAttribute("data-target");

@@ -17,3 +17,6 @@ Route::get('/fssai', [PageController::class, 'fssai'])->name('fssai');
 Route::get('/medical', [PageController::class, 'csdcoMedical'])->name('medical');
 Route::get('/cosmetics', [PageController::class, 'cosmetic'])->name('cosmetic');
 Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacy-policy');
+
+Route::post('/serviceContactFrm', [HomeController::class, 'serviceContactFrm']);
+Route::post('/sendContactfrm',[HomeController::class, 'sendContactfrm']);

@@ -10,6 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="India's Best Product Regulatory Compliance Consultants" />
     <meta name="next-size-adjust" content="" />
+    <meta name="robots" content="noindex nofollow">
+    <meta name="googlebot" content="noindex nofollow">
 
     <!-- Title & Favicon -->
     <title>Sociallabs.in | Indian Regulatory Compliance Consultancy</title>
@@ -673,7 +675,7 @@
         {{-- Copyright --}}
         <div class="pt-8 border-t border-slate-800">
             <div class="flex flex-col md:flex-row justify-between items-center">
-                <p class="text-slate-500 text-sm">© 2025 Sociallabs.in. All rights reserved.</p>
+                <p class="text-slate-500 text-sm">© <?php echo date("Y"); ?> Sociallabs.in. All rights reserved.</p>
                 <div class="flex space-x-6 mt-4 md:mt-0">
                     <a class="text-slate-500 hover:text-slate-300 text-sm transition-colors duration-300" href="/privacy-policy">Privacy Policy</a>
                 </div>
@@ -683,10 +685,17 @@
 </footer>
 
 @include('partials.enquiry-modal')
-
+<script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+<script>
+   
+</script>
 <script src="{{ asset('_next/static/chunks/webpack-1a6c63b41ebbb95b.js')}}" async=""></script>
 <script src="{{ asset('js/globals.js') }}" defer></script>
 <script src="https://unpkg.com/lucide-static@latest/icons/star.svg" defer></script>
+
 
 @stack('scripts_custom')
 
