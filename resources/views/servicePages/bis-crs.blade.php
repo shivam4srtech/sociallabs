@@ -915,10 +915,10 @@
                 <!-- Section Header -->
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                        Typical Challenges &amp; Vincular’s Solutions
+                        Typical Challenges &amp; Sociallabs’s Solutions
                     </h2>
                     <p class="text-gray-600 text-lg max-w-2xl mx-auto">
-                        Obtaining CRS certification on schedule can be tricky for many companies. Vincular guides you through each hurdle, ensuring a smooth and confident certification process.
+                        Obtaining CRS certification on schedule can be tricky for many companies. Sociallabs guides you through each hurdle, ensuring a smooth and confident certification process.
                     </p>
                 </div>
 
@@ -943,7 +943,7 @@
                     </ul>
                 </div>
 
-                <!-- How Vincular Helps Card -->
+                <!-- How Sociallabs Helps Card -->
                 <div class="bg-green-50 border border-green-200 rounded-2xl p-6 shadow-sm">
                     <div class="flex items-center mb-4">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb w-6 h-6 text-green-600 mr-2" aria-hidden="true">
@@ -951,7 +951,7 @@
                             <path d="M9 18h6"></path>
                             <path d="M10 22h4"></path>
                         </svg>
-                        <h3 class="text-xl font-semibold text-green-700">Vincular’s Approach</h3>
+                        <h3 class="text-xl font-semibold text-green-700">Sociallabs’s Approach</h3>
                     </div>
                     <ul class="list-disc list-inside text-green-900 space-y-3 pl-2">
                         <li>Conducting pre-assessment and regulatory guidance.</li>

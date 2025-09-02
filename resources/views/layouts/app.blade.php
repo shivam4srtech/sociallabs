@@ -41,8 +41,7 @@
 <body>
 <nav
   class="jsx-72ce28f7fdf6d566 fixed top-0 w-full z-50 flex items-center justify-between headerNavBar
-         px-4 sm:px-6 lg:px-8 py-3 bg-slate-950 bg-gradient-to-b 
-         from-slate-800/50 to-slate-900/50 backdrop-blur-xl 
+         px-4 sm:px-6 lg:px-8 py-3  
          border-b border-slate-800/50 shadow-lg transition-all duration-300 translate-y-0"
 >
   <!-- Left: Logo -->
@@ -73,7 +72,7 @@
         class="menu-btn flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium 
                transition-all duration-200 relative before:absolute before:inset-0 
                before:rounded-lg before:transition-all before:duration-200 
-               text-slate-300 hover:text-blue-400 hover:bg-slate-800/60 
+               text-slate-300 hover:text-black hover:bg-slate-800/60 
                before:hover:bg-slate-700/30"
         data-target="megaMenuservice1"
         >
@@ -107,8 +106,8 @@
           <!-- Left Column: Categories -->
           <div
             class="w-[420px] border-r border-slate-700/50 py-4 flex-shrink-0 
-                   bg-gradient-to-b from-slate-800/50 to-slate-900/50"
-            >
+                   bg-gradient-to-b from-slate-800/50 to-slate-900/50 overflowAuto bg-blu"
+             >
             <div class="px-3">
               <ul class="space-y-1 headerTabList">
                 <!-- Example Active Item -->
@@ -229,6 +228,168 @@
                     </svg>
                   </button>
                 </li>
+                <li>
+                  <button
+                    class="w-full text-left flex items-center justify-between 
+                           px-3 py-2.5 text-sm font-medium rounded-lg transition-all duration-200 
+                           hover:bg-slate-800/60 text-slate-200 hover:text-white"
+                  >
+                    <span class="truncate pr-2">Telecommunication Engineering Centre (TEC)</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-chevron-right h-4 w-4 flex-shrink-0 text-slate-400"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="w-full text-left flex items-center justify-between 
+                           px-3 py-2.5 text-sm font-medium rounded-lg transition-all duration-200 
+                           hover:bg-slate-800/60 text-slate-200 hover:text-white"
+                  >
+                    <span class="truncate pr-2">Standardisation Testing and Quality Certification (STQC)</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-chevron-right h-4 w-4 flex-shrink-0 text-slate-400"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="w-full text-left flex items-center justify-between 
+                           px-3 py-2.5 text-sm font-medium rounded-lg transition-all duration-200 
+                           hover:bg-slate-800/60 text-slate-200 hover:text-white"
+                  >
+                    <span class="truncate pr-2">Global Market Access (GMA)</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-chevron-right h-4 w-4 flex-shrink-0 text-slate-400"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="w-full text-left flex items-center justify-between 
+                           px-3 py-2.5 text-sm font-medium rounded-lg transition-all duration-200 
+                           hover:bg-slate-800/60 text-slate-200 hover:text-white"
+                  >
+                    <span class="truncate pr-2">Consumer Affairs</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-chevron-right h-4 w-4 flex-shrink-0 text-slate-400"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="w-full text-left flex items-center justify-between 
+                           px-3 py-2.5 text-sm font-medium rounded-lg transition-all duration-200 
+                           hover:bg-slate-800/60 text-slate-200 hover:text-white"
+                  >
+                    <span class="truncate pr-2">Department of Telecommunication (DOT)</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-chevron-right h-4 w-4 flex-shrink-0 text-slate-400"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="w-full text-left flex items-center justify-between 
+                           px-3 py-2.5 text-sm font-medium rounded-lg transition-all duration-200 
+                           hover:bg-slate-800/60 text-slate-200 hover:text-white"
+                  >
+                    <span class="truncate pr-2">Petroleum and Explosives Safety Organization (PESO)</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-chevron-right h-4 w-4 flex-shrink-0 text-slate-400"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="w-full text-left flex items-center justify-between 
+                           px-3 py-2.5 text-sm font-medium rounded-lg transition-all duration-200 
+                           hover:bg-slate-800/60 text-slate-200 hover:text-white"
+                  >
+                    <span class="truncate pr-2">Automotive Research Association of India (ARAI)</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-chevron-right h-4 w-4 flex-shrink-0 text-slate-400"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                  </button>
+                </li>
+               
 
                 <!-- Continue other items the same way... -->
               </ul>
@@ -236,7 +397,7 @@
         </div>
 
         <!-- Right Column: Details -->
-        <div class="headerTabContent flex-1 p-4 bg-slate-900/30 max-h-[calc(100vh-120px)] overflow-y-auto" style="min-height:400px">
+        <div class="headerTabContent flex-1 p-4 bg-slate-900/30 max-h-[calc(100vh-120px)] overflow-y-auto bg-blu" style="min-height:400px">
             <div class="headerContent">
               <div class="mb-4">
                 <h3 class="text-lg font-semibold text-white mb-1">
@@ -335,7 +496,7 @@
                   </div>
               </div>
             </div>
-             <div class="headerContent">
+            <div class="headerContent">
               <div class="mb-4">
                 <h3 class="text-lg font-semibold text-white mb-1">
                    Central Drugs Standard Control Organization (CDSCO)
@@ -353,13 +514,145 @@
                   </div>
               </div>
             </div>
+            <div class="headerContent">
+              <div class="mb-4">
+                <h3 class="text-lg font-semibold text-white mb-1">
+                   Telecommunication Engineering Centre (TEC)
+                </h3>
+                <p class="text-sm text-slate-400">Select a service to learn more</p>
+              </div>
+
+              <!-- Services Grid -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div class="group p-4 rounded-lg border border-slate-700/30 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-200 bg-slate-800/20 hover:bg-slate-800/40">
+                    <a class="font-semibold text-slate-100 group-hover:text-blue-400 block transition-colors duration-200 mb-2" href="/tec">Telecommunication Engineering Centre (TEC)</a>
+                  </div>
+                  
+              </div>
+            </div>
+            <div class="headerContent">
+              <div class="mb-4">
+                <h3 class="text-lg font-semibold text-white mb-1">
+                  Standardisation Testing and Quality Certification (STQC)
+                </h3>
+                <p class="text-sm text-slate-400">Select a service to learn more</p>
+              </div>
+
+              <!-- Services Grid -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div class="group p-4 rounded-lg border border-slate-700/30 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-200 bg-slate-800/20 hover:bg-slate-800/40">
+                    <a class="font-semibold text-slate-100 group-hover:text-blue-400 block transition-colors duration-200 mb-2" href="/stqc">STQC Certification</a>
+                  </div>
+                  
+              </div>
+            </div>
+            <div class="headerContent">
+              <div class="mb-4">
+                <h3 class="text-lg font-semibold text-white mb-1">
+                  Global Market Access (GMA)
+                </h3>
+                <p class="text-sm text-slate-400">Select a service to learn more</p>
+              </div>
+
+              <!-- Services Grid -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div class="group p-4 rounded-lg border border-slate-700/30 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-200 bg-slate-800/20 hover:bg-slate-800/40">
+                    <a class="font-semibold text-slate-100 group-hover:text-blue-400 block transition-colors duration-200 mb-2" href="/ce-certification">CE Certification</a>
+                  </div>
+                  <div class="group p-4 rounded-lg border border-slate-700/30 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-200 bg-slate-800/20 hover:bg-slate-800/40">
+                    <a class="font-semibold text-slate-100 group-hover:text-blue-400 block transition-colors duration-200 mb-2" href="/fcc-certification">FCC Certification</a>
+                  </div>
+                  <div class="group p-4 rounded-lg border border-slate-700/30 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-200 bg-slate-800/20 hover:bg-slate-800/40">
+                    <a class="font-semibold text-slate-100 group-hover:text-blue-400 block transition-colors duration-200 mb-2" href="/bsmi-certification">BSMI Certification</a>
+                  </div>
+                  <div class="group p-4 rounded-lg border border-slate-700/30 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-200 bg-slate-800/20 hover:bg-slate-800/40">
+                    <a class="font-semibold text-slate-100 group-hover:text-blue-400 block transition-colors duration-200 mb-2" href="/kc-certification">KC Certification</a>
+                  </div>
+                  <div class="group p-4 rounded-lg border border-slate-700/30 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-200 bg-slate-800/20 hover:bg-slate-800/40">
+                    <a class="font-semibold text-slate-100 group-hover:text-blue-400 block transition-colors duration-200 mb-2" href="/cb-certification">CB Certification</a>
+                  </div>
+                   <div class="group p-4 rounded-lg border border-slate-700/30 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-200 bg-slate-800/20 hover:bg-slate-800/40">
+                    <a class="font-semibold text-slate-100 group-hover:text-blue-400 block transition-colors duration-200 mb-2" href="/imda-certification">IMDA Approval</a>
+                  </div>
+                  
+              </div>
+            </div>
+            <div class="headerContent">
+              <div class="mb-4">
+                <h3 class="text-lg font-semibold text-white mb-1">
+                 Consumer Affairs
+                </h3>
+                <p class="text-sm text-slate-400">Select a service to learn more</p>
+              </div>
+
+              <!-- Services Grid -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div class="group p-4 rounded-lg border border-slate-700/30 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-200 bg-slate-800/20 hover:bg-slate-800/40">
+                    <a class="font-semibold text-slate-100 group-hover:text-blue-400 block transition-colors duration-200 mb-2" href="/legal-metrology">Legal Metrology Certification</a>
+                  </div>
+                 
+                  
+              </div>
+            </div>
+            <div class="headerContent">
+              <div class="mb-4">
+                <h3 class="text-lg font-semibold text-white mb-1">
+                 Department of Telecommunication (DOT)
+                </h3>
+                <p class="text-sm text-slate-400">Select a service to learn more</p>
+              </div>
+
+              <!-- Services Grid -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div class="group p-4 rounded-lg border border-slate-700/30 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-200 bg-slate-800/20 hover:bg-slate-800/40">
+                    <a class="font-semibold text-slate-100 group-hover:text-blue-400 block transition-colors duration-200 mb-2" href="/type-allocation-code">TAC-IMEI Registration</a>
+                  </div>
+                 
+                  
+              </div>
+            </div>
+            <div class="headerContent">
+              <div class="mb-4">
+                <h3 class="text-lg font-semibold text-white mb-1">
+                 Petroleum and Explosives Safety Organization (PESO)
+                </h3>
+                <p class="text-sm text-slate-400">Select a service to learn more</p>
+              </div>
+
+              <!-- Services Grid -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div class="group p-4 rounded-lg border border-slate-700/30 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-200 bg-slate-800/20 hover:bg-slate-800/40">
+                    <a class="font-semibold text-slate-100 group-hover:text-blue-400 block transition-colors duration-200 mb-2" href="/peso-certification">PESO Certification</a>
+                  </div>
+                 
+                  
+              </div>
+            </div>
+           
+            <div class="headerContent">
+              <div class="mb-4">
+                <h3 class="text-lg font-semibold text-white mb-1">
+                 Automotive Research Association of India (ARAI)
+                </h3>
+                <p class="text-sm text-slate-400">Select a service to learn more</p>
+              </div>
+
+              <!-- Services Grid -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div class="group p-4 rounded-lg border border-slate-700/30 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-200 bg-slate-800/20 hover:bg-slate-800/40">
+                    <a class="font-semibold text-slate-100 group-hover:text-blue-400 block transition-colors duration-200 mb-2" href="/arai-approval">ARAI Approval</a>
+                  </div>
+                 
+                  
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <!-- Knowledge Box -->
-    <div class="relative">
+    {{-- <div class="relative">
       <button 
         class="menu-btn flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium 
                transition-all duration-200 relative before:absolute before:inset-0 
@@ -393,56 +686,55 @@
         style="animation: fadeInDown 0.2s ease-out;"
         >
 
-  <div class="p-3">
-    <div class="space-y-1">
+          <div class="p-3">
+            <div class="space-y-1">
 
-      <a href="/customer-case-studies"
-         class="flex items-center px-3 py-2.5 text-sm font-medium
-                text-slate-200 hover:text-blue-400
-                hover:bg-slate-800/60 rounded-lg transition-all duration-200">
-        Case Studies
-      </a>
+              <a href="/customer-case-studies"
+                class="flex items-center px-3 py-2.5 text-sm font-medium
+                        text-slate-200 hover:text-blue-400
+                        hover:bg-slate-800/60 rounded-lg transition-all duration-200">
+                Case Studies
+              </a>
 
-      <a href="/industry_updates"
-         class="flex items-center px-3 py-2.5 text-sm font-medium
-                text-slate-200 hover:text-blue-400
-                hover:bg-slate-800/60 rounded-lg transition-all duration-200">
-        Quality Control Orders
-      </a>
+              <a href="/industry_updates"
+                class="flex items-center px-3 py-2.5 text-sm font-medium
+                        text-slate-200 hover:text-blue-400
+                        hover:bg-slate-800/60 rounded-lg transition-all duration-200">
+                Quality Control Orders
+              </a>
 
-      <a href="/newsletter"
-         class="flex items-center px-3 py-2.5 text-sm font-medium
-                text-slate-200 hover:text-blue-400
-                hover:bg-slate-800/60 rounded-lg transition-all duration-200">
-        Newsletters
-      </a>
+              <a href="/newsletter"
+                class="flex items-center px-3 py-2.5 text-sm font-medium
+                        text-slate-200 hover:text-blue-400
+                        hover:bg-slate-800/60 rounded-lg transition-all duration-200">
+                Newsletters
+              </a>
 
-      <a href="/publications"
-         class="flex items-center px-3 py-2.5 text-sm font-medium
-                text-slate-200 hover:text-blue-400
-                hover:bg-slate-800/60 rounded-lg transition-all duration-200">
-        Latest News/Updates
-      </a>
+              <a href="/publications"
+                class="flex items-center px-3 py-2.5 text-sm font-medium
+                        text-slate-200 hover:text-blue-400
+                        hover:bg-slate-800/60 rounded-lg transition-all duration-200">
+                Latest News/Updates
+              </a>
 
-      <a href="/blog"
-         class="flex items-center px-3 py-2.5 text-sm font-medium
-                text-slate-200 hover:text-blue-400
-                hover:bg-slate-800/60 rounded-lg transition-all duration-200">
-        Blogs &amp; Articles
-      </a>
+              <a href="/blog"
+                class="flex items-center px-3 py-2.5 text-sm font-medium
+                        text-slate-200 hover:text-blue-400
+                        hover:bg-slate-800/60 rounded-lg transition-all duration-200">
+                Blogs &amp; Articles
+              </a>
 
-      <a href="/webinars"
-         class="flex items-center px-3 py-2.5 text-sm font-medium
-                text-slate-200 hover:text-blue-400
-                hover:bg-slate-800/60 rounded-lg transition-all duration-200">
-        Webinars
-      </a>
+              <a href="/webinars"
+                class="flex items-center px-3 py-2.5 text-sm font-medium
+                        text-slate-200 hover:text-blue-400
+                        hover:bg-slate-800/60 rounded-lg transition-all duration-200">
+                Webinars
+              </a>
 
-    </div>
-  </div>
-</div>
-
-    </div>
+            </div>
+          </div>
+        </div>
+    </div> --}}
 
     <!-- About -->
     <a
@@ -471,6 +763,7 @@
   <div class="jsx-72ce28f7fdf6d566 flex-1 flex justify-end items-center gap-2">
     <div class="jsx-72ce28f7fdf6d566 lg:hidden">
       <button
+        id="mobileOpenOffcanvas"
         aria-label="Toggle menu"
         class="jsx-72ce28f7fdf6d566 p-2 rounded-lg text-slate-300 
                hover:text-blue-400 hover:bg-slate-800/60 transition-all duration-200"
@@ -520,16 +813,12 @@
                             src="{{ asset('images/logo-2.png') }}"
                         > --}}
                         <span class="footerLogo">SocialLabs.in</span>
+                        <p>
+                              Sociallabs.in is a trusted service portal offering hassle-free registration and certification solutions, including FSSAI registration, company incorporation, and compliance services, helping businesses streamline legal processes, ensure regulatory compliance, and grow confidently in India.
+                         </p>
 
                         {{-- Great Place to Work --}}
-                        <img 
-                            alt="Great Place to Work" 
-                            loading="lazy" 
-                            width="110" 
-                            height="44" 
-                            class="opacity-80 w-20 h-auto" 
-                            src="{{ asset('images/gptw.png') }}"
-                        >
+                         
                     </div>
                 </div>
 
@@ -537,12 +826,10 @@
                 <div>
                     <h3 class="text-white font-semibold text-lg mb-4">Quick Links</h3>
                     <nav class="space-y-2">
-                        <a class="block text-slate-400 hover:text-white transition-colors duration-300 text-sm" href="/newsletter">Newsletters</a>
-                        <a class="block text-slate-400 hover:text-white transition-colors duration-300 text-sm" href="/publications">Latest News</a>
-                        <a class="block text-slate-400 hover:text-white transition-colors duration-300 text-sm" href="/blog">Blog</a>
-                        <a class="block text-slate-400 hover:text-white transition-colors duration-300 text-sm" href="/webinars">Webinars</a>
-                        <a class="block text-slate-400 hover:text-white transition-colors duration-300 text-sm" href="/csr">CSR</a>
+                        <a class="block text-slate-400 hover:text-white transition-colors duration-300 text-sm" href="/home">Home</a>
+                        <a class="block text-slate-400 hover:text-white transition-colors duration-300 text-sm" href="/about">About</a>
                         <a class="block text-slate-400 hover:text-white transition-colors duration-300 text-sm" href="/contact">Contact</a>
+
                     </nav>
                 </div>
             </div>
@@ -604,19 +891,19 @@
                     <div class="mb-8">
                         {{-- <img alt="Company Logo" loading="lazy" width="140" height="130" class="mb-6" src="{{ asset('images/logo.webp') }}"> --}}
                          <span class="footerLogo">SocialLabs.in</span>
-                        <img alt="Great Place to Work" loading="lazy" width="110" height="44" class="opacity-80" src="{{ asset('images/certified.webp') }}">
+                         <p>
+                              Sociallabs.in is a trusted service portal offering hassle-free registration and certification solutions, including FSSAI registration, company incorporation, and compliance services, helping businesses streamline legal processes, ensure regulatory compliance, and grow confidently in India.
+                         </p>
                     </div>
                 </div>
 
                 <div class="lg:col-span-1">
                     <h3 class="text-white font-semibold text-lg mb-6">Quick Links</h3>
-                    <nav class="space-y-3">
-                        <a class="block text-slate-400 hover:text-white transition-colors duration-300 text-sm" href="/newsletter">Newsletters</a>
-                        <a class="block text-slate-400 hover:text-white transition-colors duration-300 text-sm" href="/publications">Latest News</a>
-                        <a class="block text-slate-400 hover:text-white transition-colors duration-300 text-sm" href="/blog">Blog</a>
-                        <a class="block text-slate-400 hover:text-white transition-colors duration-300 text-sm" href="/webinars">Webinars</a>
-                        <a class="block text-slate-400 hover:text-white transition-colors duration-300 text-sm" href="/csr">CSR</a>
+                      <nav class="space-y-2">
+                        <a class="block text-slate-400 hover:text-white transition-colors duration-300 text-sm" href="/home">Home</a>
+                        <a class="block text-slate-400 hover:text-white transition-colors duration-300 text-sm" href="/about">About</a>
                         <a class="block text-slate-400 hover:text-white transition-colors duration-300 text-sm" href="/contact">Contact</a>
+
                     </nav>
                 </div>
 
@@ -683,6 +970,102 @@
         </div>
     </div>
 </footer>
+   
+{{-- offcanvas --}}
+ <div class="relative">
+    <!-- Overlay -->
+    <div id="mobileOverlay" class="fixed inset-0 bg-black/50 hidden"></div>
+
+    <!-- Offcanvas Sidebar (Right Side, Initially Hidden) -->
+    <div id="mobileOffcanvas" class="fixed top-0 right-0 w-82 h-full bg-white shadow-lg transform translate-x-full transition-transform duration-300 z-50 hidden">
+      <div class="p-4 flex justify-between items-center border-b">
+        <h2 class="text-lg font-semibold">Menu</h2>
+        <button id="mobileCloseOffcanvas" class="text-gray-600 hover:text-gray-900 text-2xl">&times;</button>
+      </div>
+      <!-- Services Dropdown -->
+      <div class="relative">
+        <nav class="p-4 space-y-3 navScroll">
+            <div class="w-full">
+              <a href="/scheme-x-certification" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">ISI Mark Certification (Scheme-1)</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+              <a href="/bis-crs" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">CRS Certification</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+              <a href="/bee" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">BEE Certification</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+              <a href="/wpc" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">WPC Approvals and Licenses</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+              <a href="/fssai" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">FSSAI Approval</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+              <a href="/medical" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">CDSCO- Medical Device Registration</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+              <a href="/cosmetics" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">Cosmetic Manufacturing License</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+              <a href="/tec" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">Telecommunication Engineering Centre (TEC)</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+              <a href="/stqc" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">STQC Certification</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+              <a href="/ce-certification" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">CE Certification</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+              <a href="/fcc-certification" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">FCC Certification</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+              <a href="/bsmi-certification" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">BSMI Certification</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+              <a href="/kc-certification" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">KC Certification</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+              <a href="/cb-certification" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">CB Certification</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+              <a href="/imda-certification" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">IMDA Approval</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+              <a href="/legal-metrology" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">Legal Metrology Certification</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+              <a href="/type-allocation-code" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">TAC-IMEI Registration</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+              <a href="/peso-certification" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">PESO Certification</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+              <a href="/arai-approval" class="w-full flex justify-between items-center px-2 py-2 text-left text-base font-medium transition-all duration-200 rounded text-slate-200 hover:text-white hover:bg-slate-800/60 backdrop-blur-sm bg-black mb-2">
+                <span class="webkit-1">ARAI Certification</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16" fill="#fff"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>
+              </a>
+            </div>
+        </nav>
+    </div>
+  </div>
 
 @include('partials.enquiry-modal')
 <script

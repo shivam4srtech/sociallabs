@@ -20,3 +20,17 @@ Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name('p
 
 Route::post('/serviceContactFrm', [HomeController::class, 'serviceContactFrm']);
 Route::post('/sendContactfrm',[HomeController::class, 'sendContactfrm']);
+Route::get('/type-allocation-code', [PageController::class, 'dot'])->name('dot');
+Route::get('/peso-certification', [PageController::class, 'pesoCertification'])->name('peso-certification');
+Route::get('/legal-metrology', [PageController::class, 'legalMetrology'])->name('legal-metrology');
+Route::get('/tec', [PageController::class, 'telecommunicationEngineering'])->name('telecommunication-engineering');
+Route::get('/stqc', [PageController::class, 'stqc'])->name('stqc');
+Route::get('/arai-approval', [PageController::class, 'arai'])->name('arai');
+Route::get('/ce-certification', [PageController::class, 'ceCertification'])->name('ce-certification');
+Route::get('/bsmi-certification', [PageController::class, 'bsmiCertification'])->name('bsmi-certification');
+Route::get('/fcc-certification', [PageController::class, 'fccCertification'])->name('fcc-certification');
+Route::get('/kc-certification', [PageController::class, 'kcCertification'])->name('kc-certification');
+Route::get('/cb-certification', [PageController::class, 'cbCertification'])->name('cb-certification');
+Route::get('/imda-certification', [PageController::class, 'imdaCertification'])->name('imda-certification');
+
+

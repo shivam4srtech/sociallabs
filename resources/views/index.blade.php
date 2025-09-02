@@ -17,45 +17,23 @@
                     loop 
                     playsinline 
                     preload="auto" 
-                    poster="{{ asset('images/testing.jpg') }}"
+                   
                     class="absolute inset-0 w-full h-full object-cover z-0 transition-all duration-1000 ease-out opacity-100"
                     style="will-change: opacity; backface-visibility: hidden; filter: brightness(1) contrast(1.05);"
                 >
-                    <source src="{{ asset('vid/testing.webm') }}" type="video/webm">
-                    <source src="{{ asset('vid/testing.mp4') }}" type="video/mp4">
+                
+                    <source src="{{ asset('vid/building.mp4') }}" type="video/mp4">
                 </video>
 
 
-                <video 
-                 autoplay 
-                 muted 
-                loop 
-                playsinline 
-                preload="metadata" 
-                poster="/homepage/herosection/poster/certification.jpg"
-                class="absolute inset-0 w-full h-full object-cover z-0 transition-all duration-1000 ease-out opacity-0"
-                style="will-change: auto; backface-visibility: hidden; filter: brightness(0.9);"
-                >
-                <source src="{{asset('images/certification.webm')}}" type="video/webm">
-                <source src="{{asset('vid/certification.mp4')}}" type="video/mp4">
-                </video>
+                
 
-                <video 
-                loop 
-                playsinline 
-                preload="metadata" 
-                poster="/homepage/herosection/poster/consulting.jpg"
-                class="absolute inset-0 w-full h-full object-cover z-0 transition-all duration-1000 ease-out opacity-0"
-                style="will-change: auto; backface-visibility: hidden; filter: brightness(0.9);"
-                >
-                <source src="{{asset('images/consulting.webm')}}" type="video/webm">
-                <source src="{{asset('vid/consulting.mp4')}}" type="video/mp4">
-                </video>
+                
 
                 <!-- Poster Fallback -->
                 <div 
-                class="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat transition-opacity duration-700 ease-in-out opacity-0" 
-                style="background-image: url('/homepage/herosection/poster/testing.jpg');">
+                class="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat transition-opacity duration-700 ease-in-out opacity-0" >
+              
                 </div>
 
                 <!-- Overlays -->

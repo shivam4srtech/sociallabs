@@ -48,7 +48,55 @@ class PageController extends Controller
     {
         return view('servicePages.csdco-cosmetic');
     }
-    
+        public function dot()
+    {
+        return view('servicePages.dot');
+    }
+        public function pesoCertification()
+    {
+        return view('servicePages.peso-certification');
+    }
+        public function legalMetrology()
+    {
+        return view('servicePages.legal-metrology');
+    }
+        public function telecommunicationEngineering()
+    {
+        return view('servicePages.telecommunication-engineering');
+    }
+        public function stqc()
+    {
+        return view('servicePages.stqc-cctv');
+    }
+        public function arai()
+    {
+        return view('servicePages.arai-approval');
+    }
+         public function ceCertification()
+    {
+        return view('servicePages.ce-certification');
+    }
+        public function bsmiCertification()
+    {
+        return view('servicePages.bsmi-certification');
+    }
+        public function fccCertification()
+    {
+        return view('servicePages.fcc-certification');
+    }
+         public function kcCertification()
+    {
+        return view('servicePages.kc-certification');
+    }
+        public function cbCertification()
+    {
+        return view('servicePages.cb-certification');
+    }
+        public function imdaCertification()
+    {
+        return view('servicePages.imda-certification');
+    }
+
 
 }
 

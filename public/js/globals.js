@@ -1,3 +1,28 @@
+//mobile offcanvas
+  const mobileOpenBtn = document.getElementById("mobileOpenOffcanvas");
+    const mobileCloseBtn = document.getElementById("mobileCloseOffcanvas");
+    const mobileOffcanvas = document.getElementById("mobileOffcanvas");
+    const mobileOverlay = document.getElementById("mobileOverlay");
+
+    mobileOpenBtn.addEventListener("click", () => {
+      mobileOffcanvas.classList.remove("hidden");
+      setTimeout(() => {
+        mobileOffcanvas.classList.remove("translate-x-full");
+      }, 10); // delay for smooth transition
+      mobileOverlay.classList.remove("hidden");
+    });
+
+    function closeMobileOffcanvas() {
+      mobileOffcanvas.classList.add("translate-x-full");
+      mobileOverlay.classList.add("hidden");
+      setTimeout(() => {
+        mobileOffcanvas.classList.add("hidden");
+      }, 300); // wait for transition to finish
+    }
+
+    mobileCloseBtn.addEventListener("click", closeMobileOffcanvas);
+    mobileOverlay.addEventListener("click", closeMobileOffcanvas);
+
 $('.form-control').on('keypress change', function() {
     $(this).next('span').text(''); 
      $(this).attr('style','');
